@@ -1,0 +1,1991 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:ukl="https://www.legislation.gov.uk/namespaces/UK-AKN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../schemas/akomantoso30.xsd"><?DMS-Component componentId="365521ff-baa1-46cd-bb04-f4b260bdae88" seriesId="1554df4b-a83d-4455-b88b-6df484d93aeb" versionNumber="0"?>
+ 
+ <bill contains="originalVersion" name="ukfinres">
+  <meta><?DMS-Component componentId="327ec568-a3d7-4ac4-92d0-7363217f047b" seriesId="5992bf59-298d-44b3-b81a-1ceea573372d" versionNumber="0"?>
+   
+   <identification source="#author">
+    <FRBRWork>
+     <FRBRthis value="#varWork"/>
+     <FRBRuri value="#varWorkUri"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRalias name="ttflConfigHistory" value="#varCHOiid"/>
+     <FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRcountry value="GB-UKM"/>
+     <FRBRsubtype value="#varDocSubType"/>
+     <FRBRnumber value="#varProjectId"/>
+     <FRBRname value="#varDocTitle"/>
+     <FRBRprescriptive value="true"/>
+     <FRBRauthoritative value="false"/>
+    </FRBRWork>
+    <FRBRExpression>
+     <FRBRthis value="#varExpression"/>
+     <FRBRuri value="#varExpressionUri"/>
+     <FRBRalias name="ttflVersionDescription" value="#varVDOiid"/>
+     <FRBRdate date="9999-01-01" name="draft"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRversionNumber value=""/>
+     <FRBRauthoritative value="false"/>
+     <FRBRmasterExpression href="" showAs=""/>
+     <FRBRlanguage language="eng"/>
+    </FRBRExpression>
+    <FRBRManifestation>
+     <FRBRthis value="#varManifestation"/>
+     <FRBRuri value="#varManifestationUri"/>
+     <FRBRdate date="9999-01-01" name="akn_xml"/>
+     <FRBRauthor href="#varAuthor"/>
+     <FRBRformat value="application/akn+xml"/>
+    </FRBRManifestation>
+   </identification>
+   <references source="#author">
+    <TLCConcept GUID="_921bb826-14a1-4c74-adb9-6bc6d90c152d" eId="varDocSubType" href="#varOntologies" showAs="Finance Resolutions"/>
+    <TLCConcept GUID="_5b194f63-9160-4c2b-8dfd-b8cd1c440cd8" eId="varBillTitle" href="#varOntologies" showAs="Finance Bill"/>
+    <TLCConcept GUID="_23121073-7ec2-451a-8462-e129093e6bce" eId="varHouse" href="#varOntologies" showAs="House of Commons"/>
+    <TLCProcess GUID="_b6eac483-ac1c-474a-bbbd-7c9089378fa3" eId="varStageVersion" href="#varOntologies" showAs="Pre-Introduction"/>
+    <TLCProcess GUID="_52822c21-ec10-4701-9e8d-7cf1c2d758ea" eId="varProjectId" href="#varOntologies" showAs="UK000636"/>
+    <TLCProcess GUID="_1a2fdd3e-db37-4c2b-96a2-3b256b7d51c6" eId="varWork" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_5ffe2247-4185-46a6-bf0b-2adf72156757" eId="varWorkUri" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_ff8872f5-9ca1-4692-980d-dde27c269ae9" eId="varCHOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_23fc649b-d32c-43a1-8b5c-8ff6f25a3406" eId="varExpression" href="#varOntologies" showAs="65998963-0cce-421f-b14c-e32cf0f70524"/>
+    <TLCProcess GUID="_45de3d86-b172-4f35-8bc7-6c1ad726cda7" eId="varExpressionUri" href="#varOntologies" showAs="dma:///45e6b900-8929-11d4-b772-0050da06bfb4/80742cea-0ebb-4cf6-9759-1e52358d9b5b/;guid=65998963-0cce-421f-b14c-e32cf0f70524;class=Version%20Description"/>
+    <TLCProcess GUID="_8d5dd674-df84-4037-ae0b-d84abb917754" eId="varVDOiid" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_59390894-1d29-4d07-8785-e34875326856" eId="varManifestation" href="#varOntologies" showAs=""/>
+    <TLCProcess GUID="_61248a86-668d-4c43-b025-86d19563cc68" eId="varManifestationUri" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_be3e6db1-860f-4bdd-9e04-dcc191006379" eId="varActYear" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_3545f64d-76f9-4ff7-b2f4-ca45c61f6519" eId="varActTitle" href="#varOntologies" showAs="Finance Act #varActYear"/>
+    <TLCConcept GUID="_a74d6e54-7002-4629-9df5-0825ddc298db" eId="varIntroDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_2b1600cf-ac04-425a-9b4a-8ab7cade19a2" eId="varPublicationDate" href="#varOntologies" showAs=""/>
+    <TLCConcept GUID="_ef12fbef-5120-4828-835f-d545b2e7a06d" eId="varDocType" href="#varOntologies" showAs="UK Finance Resolutions"/>
+    <TLCConcept GUID="_1bcc36d4-c0c4-4c2e-8d5f-12a6662ad004" eId="varSystem" href="#varOntologies" showAs="Lawmaker"/>
+    <TLCConcept GUID="_26c1577a-7545-447e-ad73-e0c70e5ca959" eId="varAuthor" href="#varOntologies" showAs="UK Parliament"/>
+    <TLCConcept GUID="_626f2335-effc-41be-bb32-e252c5a4e63c" eId="varJurisdiction" href="#varOntologies" showAs="United Kingdom"/>
+    <TLCConcept GUID="_5749c09d-1967-4eb7-b40b-d5eb085844f2" eId="varOntologies" href="https://www.legislation.gov.uk/ontologies/UK-AKN" showAs="https://www.legislation.gov.uk/ontologies/UK-AKN"/>
+    <TLCConcept GUID="_bc2c49fd-dcd5-4376-8127-0401d2ab7e99" eId="varSovereign" href="#varOntologies" showAs="Charles III"/>
+   </references>
+  </meta>
+  <coverPage GUID="_7f1ad5aa-ccb9-4a60-a73a-620c18d591ec" eId="coverPage"><?DMS-Component componentId="3e0d38a0-e12e-48c1-bf28-6cf61a7dbdc6" seriesId="9c797c5e-08f1-4a3a-ac28-b51142f9a358" versionNumber="0"?>
+   
+   <block name="title">RESOLUTIONS TO BE MOVED BY THE CHANCELLOR OF THE EXCHEQUER</block>
+   <block name="date">22 November 2023</block>
+   <blockContainer class="note">
+    <p><inline class="note" name="placeholder"/></p>
+   </blockContainer>
+   <blockContainer class="hcMotion">
+    <blockContainer class="hcMotionHeading">
+     <block name="proposer"><docIntroducer>The Chancellor of the Exchequer</docIntroducer></block>
+    </blockContainer>
+    <blockContainer class="hcMotionBody">
+     <block name="instruction">PROVISIONAL COLLECTION OF TAXES: That, pursuant to section 5 of the Provisional Collection of Taxes Act 1968, provisional statutory effect shall be given to the following motion:—</block>
+     <tblock class="para1">
+      <p>Rates of tobacco products duty (motion no. 1).</p>
+     </tblock>
+    </blockContainer>
+   </blockContainer>
+   <block GUID="_f29915df-2c0c-4059-9e80-55b8dcfd2120" eId="cp__hdg" name="ToCHeading">ARRANGEMENT OF WAYS AND MEANS RESOLUTIONS</block>
+   <toc>
+    <tocItem class="resolutionToC" href="#resolution_1" level="0"><inline name="tocNum">1.</inline>Rates of tobacco products duty</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_2" level="0"><inline name="tocNum">2.</inline>Capital allowances (permanent full expensing etc)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_3" level="0"><inline name="tocNum">3.</inline>Corporation tax (relief for research and development)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_4" level="0"><inline name="tocNum">4.</inline>Corporation tax (films, television programmes and video games)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_5" level="0"><inline name="tocNum">5.</inline>Corporation tax (relief for theatrical productions)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_6" level="0"><inline name="tocNum">6.</inline>Corporation tax (relief for orchestral concerts)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_7" level="0"><inline name="tocNum">7.</inline>Corporation tax (relief for museum and gallery exhibitions)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_8" level="0"><inline name="tocNum">8.</inline>Administrative provisions relating to creative reliefs</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_9" level="0"><inline name="tocNum">9.</inline>Real Estate Investment Trusts</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_10" level="0"><inline name="tocNum">10.</inline>Tonnage tax</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_11" level="0"><inline name="tocNum">11.</inline>Extension of EIS relief and VCT relief</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_12" level="0"><inline name="tocNum">12.</inline>Relief for payments of compensation to companies (Horizon etc)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_13" level="0"><inline name="tocNum">13.</inline>Enterprise management incentives (time limits)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_14" level="0"><inline name="tocNum">14.</inline>Pensions (provision connected with abolition of lifetime allowance charge)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_15" level="0"><inline name="tocNum">15.</inline>Pensions (Members of Parliament etc)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_16" level="0"><inline name="tocNum">16.</inline>Income tax (calculation of profits on cash basis)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_17" level="0"><inline name="tocNum">17.</inline>PAYE regulations (special types of payer or payee)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_18" level="0"><inline name="tocNum">18.</inline>Carer’s allowance supplement (correction of reference)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_19" level="0"><inline name="tocNum">19.</inline>Stamp duty reserve tax (growth market exemption)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_20" level="0"><inline name="tocNum">20.</inline>Stamp duty (capital-raising arrangements etc)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_21" level="0"><inline name="tocNum">21.</inline>Stamp duty reserve tax (capital-raising arrangements etc)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_22" level="0"><inline name="tocNum">22.</inline>Pillar Two</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_23" level="0"><inline name="tocNum">23.</inline>Rates of vehicle excise duty (passenger or light goods vehicles, motorcycles etc)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_24" level="0"><inline name="tocNum">24.</inline>Rates of air passenger duty</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_25" level="0"><inline name="tocNum">25.</inline>Hydrocarbon oil duties (rebate on oils used for heating premises)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_26" level="0"><inline name="tocNum">26.</inline>Vehicle excise duty (exemption for foreign vehicles)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_27" level="0"><inline name="tocNum">27.</inline>Interpreting VAT and excise law</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_28" level="0"><inline name="tocNum">28.</inline>Rates of landfill tax</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_29" level="0"><inline name="tocNum">29.</inline>Rate of aggregates levy</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_30" level="0"><inline name="tocNum">30.</inline>Rate of plastic packaging tax</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_31" level="0"><inline name="tocNum">31.</inline>Increasing maximum term of imprisonment for tax offences</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_32" level="0"><inline name="tocNum">32.</inline>Promoters of tax avoidance (orders disqualifying company directors etc)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_33" level="0"><inline name="tocNum">33.</inline>Promoters of tax avoidance (stop notices)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_34" level="0"><inline name="tocNum">34.</inline>Construction industry scheme</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_35" level="0"><inline name="tocNum">35.</inline>Tax returns (information)</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_36" level="0"><inline name="tocNum">36.</inline>Commencement of provisions relating to penalties</tocItem>
+    <tocItem class="resolutionToC" href="#resolution_37" level="0"><inline name="tocNum">37.</inline>Incidental or consequential provision</tocItem>
+   </toc>
+  </coverPage>
+  <body><?DMS-Component componentId="4214380c-ce3b-4111-aeb8-50e995fbf11c" seriesId="a998f7ef-7557-482c-8d70-12e411022f8f" versionNumber="0"?>
+   
+   <hcontainer GUID="_aa5a0cca-d6d8-40b2-997e-ca0f31c34540" class="resolution" eId="resolution_1" name="resolution" ukl:type="PCTAs5"><?DMS-Component componentId="6546d56e-dbfc-4804-a0b2-d718c454c542" seriesId="2e321540-548c-435d-b533-7083f960489b" versionNumber="0"?>
+    
+    <num>1.</num>
+    <heading GUID="_7dbbead8-a2c7-4516-9300-13e6b78d6376" eId="resolution_1__hdg">Rates of tobacco products duty</heading>
+    <intro GUID="_e1922c16-9c7d-4be9-bcb4-8a57a807c48b" eId="resolution_1__intro">
+     <p>That—</p>
+    </intro>
+    <subsection GUID="_bc4263b2-64f7-48ae-971a-6934fad91655" class="prov2" eId="resolution_1__subsec_1">
+     <num>(1)</num>
+     <content>
+      <p><mod>In Schedule 1 to the Tobacco Products Duty Act 1979 (table of rates of tobacco products duty), for the Table substitute—<quotedStructure GUID="_f5a3c525-bdf5-4504-9991-3638dbf90cac" eId="resolution_1__subsec_1__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+       <content>
+        <tblock GUID="_a274fb8a-a53b-47e1-8c2e-b80568b5ef9e" class="table" eId="resolution_1__subsec_1__qstr__tbl__oc_1">
+         <heading GUID="_d7d4495c-f183-4b0c-89f5-d2714bbd14f0" class="centre" eId="resolution_1__subsec_1__qstr__tbl__oc_1__hdg">TABLE</heading>
+         <foreign>
+          <table xmlns="http://www.w3.org/1999/xhtml" xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" class="allBorders tableleft width100" cols="2">
+           <tbody class="left">
+            <tr akn:GUID="_da4781b5-ddce-49cf-9ce4-98d38e483f29" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_1">
+             <td akn:GUID="_85909360-fefc-4911-a2e3-fb695ce74eba" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_1__col_1">
+              <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">1 Cigarettes</p>
+             </td>
+             <td akn:GUID="_10d0b7f4-6548-474b-8d04-28a0a673404f" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_1__col_2">
+              <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"><mod>An amount equal to the higher of—<quotedStructure GUID="_db1dc997-9fe5-4d72-8076-62bfa2fef551" eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_1__col_2__qstr" endQuote="" startQuote="" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent-1">
+               <level GUID="_305584f2-cc7b-4508-a1ea-c3f05a96bbb3" class="para1" eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_1__col_2__qstr__para_a">
+                <num ukl:autonumber="no">(a)</num>
+                <content>
+                 <p>16.5% of the retail price plus £316.70 per thousand cigarettes, or</p>
+                </content>
+               </level>
+               <level GUID="_02d0ae65-a194-4e43-90d8-f5c7d0e4fcf0" class="para1" eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_1__col_2__qstr__para_b">
+                <num>(b)</num>
+                <content>
+                 <p>£422.80 per thousand cigarettes.</p>
+                </content>
+               </level>
+               </quotedStructure><inline name="AppendText"/></mod> </p>
+             </td>
+            </tr>
+            <tr akn:GUID="_24fdbe73-af27-4240-a24b-11a80038da03" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_2">
+             <td akn:GUID="_e508fd78-8e5a-40cb-86ea-c9bc85c2863f" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_2__col_1">
+              <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">2 Cigars</p>
+             </td>
+             <td akn:GUID="_bc96ed6a-6bd1-44cf-907c-f383f6d88c80" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_2__col_2">
+              <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">£395.03 per kilogram</p>
+             </td>
+            </tr>
+            <tr akn:GUID="_1e8d540e-bdfa-4bb8-9960-1bb97ddafc7b" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_3">
+             <td akn:GUID="_da3e2a78-ff47-4c4d-b3dd-415c5ba8f4cc" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_3__col_1">
+              <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">3 Hand-rolling tobacco</p>
+             </td>
+             <td akn:GUID="_a8115344-695b-4310-b06c-2ba443cec78a" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_3__col_2">
+              <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">£412.32 per kilogram</p>
+             </td>
+            </tr>
+            <tr akn:GUID="_622543b2-867e-450e-b2d5-aaa474ed4a80" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_4">
+             <td akn:GUID="_3e402cfc-b9df-4e9b-a84b-13151d905c10" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_4__col_1">
+              <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">4 Other smoking tobacco and chewing tobacco</p>
+             </td>
+             <td akn:GUID="_f3a6bf18-3ab4-4d6a-bca9-7c8d09e9becc" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_4__col_2">
+              <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">£173.68 per kilogram</p>
+             </td>
+            </tr>
+            <tr akn:GUID="_56f5de85-df8c-47e6-b028-a3733fcd4556" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_5">
+             <td akn:GUID="_34bb71ca-8dbb-4e46-8f16-87d36516db63" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_5__col_1">
+              <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">5 Tobacco for heating</p>
+             </td>
+             <td akn:GUID="_7f3f930c-05b5-4725-84ac-293c4d71c9b1" akn:eId="resolution_1__subsec_1__qstr__tbl__oc_1__row__oc_5__col_2">
+              <p xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">£325.53 per kilogram</p>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </foreign>
+        </tblock>
+       </content>
+       </quotedStructure><inline name="AppendText">.</inline></mod> </p>
+     </content>
+    </subsection>
+    <subsection GUID="_82a1dfe0-c952-49b8-9971-7935cf82656d" class="prov2" eId="resolution_1__subsec_2">
+     <num>(2)</num>
+     <intro GUID="_14e33fa4-9388-49ff-86f1-f02f1e8d300d" eId="resolution_1__subsec_2__intro">
+      <p>In consequence of the provision made by <ref class="valid" href="#sec_16__subsec_1" ukl:targetGuid="_bc4263b2-64f7-48ae-971a-6934fad91655">paragraph (1)</ref>, in Schedule 2 to the Travellers’ Allowances Order 1994 (which provides in certain circumstances for a simplified calculation of excise duty on goods brought into Great Britain)—</p>
+     </intro>
+     <level GUID="_3af454b1-f1fa-4fea-97b0-9575f6f3d226" class="para1" eId="resolution_1__subsec_2__para_a">
+      <num>(a)</num>
+      <content>
+       <p>in the entry relating to cigarettes, for “£393.45” substitute “£422.80”,</p>
+      </content>
+     </level>
+     <level GUID="_44a275cd-229d-4875-9ed5-4050d7241e7a" class="para1" eId="resolution_1__subsec_2__para_b">
+      <num>(b)</num>
+      <content>
+       <p>in the entry relating to hand rolling tobacco, for “£351.03” substitute “£412.32”,</p>
+      </content>
+     </level>
+     <level GUID="_4ed11527-5e7a-4572-a1eb-417fa84079d6" class="para1" eId="resolution_1__subsec_2__para_c">
+      <num>(c)</num>
+      <content>
+       <p>in the entry relating to other smoking tobacco and chewing tobacco, for “£161.62” substitute “£173.68”,</p>
+      </content>
+     </level>
+     <level GUID="_4d0dca80-fd66-4ae1-b9c0-17e797f2195b" class="para1" eId="resolution_1__subsec_2__para_d">
+      <num>(d)</num>
+      <content>
+       <p>in the entry relating to cigars, for “£367.61” substitute “£395.03”,</p>
+      </content>
+     </level>
+     <level GUID="_501aaaf8-44c3-4a8f-8a6c-424c631f5039" class="para1" eId="resolution_1__subsec_2__para_e">
+      <num>(e)</num>
+      <content>
+       <p>in the entry relating to cigarillos, for “£367.61” substitute “£395.03”, and</p>
+      </content>
+     </level>
+     <level GUID="_6203a90a-bedb-4ed9-9e84-5042db089556" class="para1" eId="resolution_1__subsec_2__para_f">
+      <num>(f)</num>
+      <content>
+       <p>in the entry relating to tobacco for heating, for “£90.88” substitute “£97.66”.</p>
+      </content>
+     </level>
+    </subsection>
+    <subsection GUID="_fec0524d-d522-47f5-9907-9944d99845ec" class="prov2" eId="resolution_1__subsec_3">
+     <num>(3)</num>
+     <content>
+      <p>The amendments made by this Resolution come into force at 6pm on 22 November 2023.</p>
+     </content>
+    </subsection>
+    <wrapUp GUID="_8c7c4a92-3b41-4141-9c72-f554364f305f" eId="resolution_1__wrapup">
+     <p>And it is declared that it is expedient in the public interest that this Resolution should have statutory effect under the provisions of the Provisional Collection of Taxes Act 1968.</p>
+    </wrapUp>
+   </hcontainer>
+   <hcontainer GUID="_7dd15933-1bfa-42d6-aa6d-2ca9d87a7add" class="resolution" eId="resolution_2" name="resolution"><?DMS-Component componentId="d17a0de3-a6f2-4871-afee-f4498ce2fad6" seriesId="7cef65a0-fcc3-4b51-908e-91714597f4d0" versionNumber="0"?>
+    
+    <num>2.</num>
+    <heading GUID="_b7a0b1d1-1105-402b-b34b-cc27d3718bcc" eId="resolution_2__hdg">Capital allowances (permanent full expensing etc)</heading>
+    <intro GUID="_0d1e120c-a07b-4b3f-b8cd-5ea60f60e169" eId="resolution_2__intro">
+     <p>That (notwithstanding anything to the contrary in the practice of the House relating to the matters that may be included in Finance Bills) provision may be made amending section 7 of the Finance (No.2) Act 2023 so as to secure that the relief provided for in that section extends to expenditure incurred on or after 1 April 2026.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_ddb4ee0e-e521-44a0-a18c-3b7df0b19ac7" class="resolution" eId="resolution_3" name="resolution"><?DMS-Component componentId="818ab22f-f3a1-4c08-9750-0cb854b61141" seriesId="8bb0e77c-193c-4a81-94ad-fb38709ef870" versionNumber="0"?>
+    
+    <num>3.</num>
+    <heading GUID="_1760fc8d-e466-4e16-aa41-fad9277aac4b" eId="resolution_3__hdg">Corporation tax (relief for research and development)</heading>
+    <intro GUID="_3d8fb6b1-8ce3-4b21-b458-d47ba010ea8d" eId="resolution_3__intro">
+     <p>That (notwithstanding anything to the contrary in the practice of the House relating to the matters that may be included in Finance Bills) provision (including provision having retrospective effect) may be made about relief from corporation tax (including by way of the payment of credits) in respect of expenditure on research and development.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_3868ef79-867e-469c-8f02-936aa574ffd7" class="resolution" eId="resolution_4" name="resolution"><?DMS-Component componentId="1ce31e07-80b9-4db4-b8ee-f255fc8a32af" seriesId="7a8543f8-ac05-4aac-a1ce-82a3922dcb71" versionNumber="0"?>
+    
+    <num>4.</num>
+    <heading GUID="_ffa187d4-4f42-41a9-bb39-a8dc2142215b" eId="resolution_4__hdg">Corporation tax (films, television programmes and video games)</heading>
+    <intro GUID="_409fec48-8cdb-41f2-a242-e13ff4e004da" eId="resolution_4__intro">
+     <p>That (notwithstanding anything to the contrary in the practice of the House relating to the matters that may be included in Finance Bills) provision may be made for the purposes of corporation tax about companies producing films, television programmes or video games, including provision for the payment of credits in respect of expenditure on the production of those things and provision taking effect in a future year.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_ebbf8c96-7650-465b-b05c-1c85a4af492b" class="resolution" eId="resolution_5" name="resolution"><?DMS-Component componentId="be0186c6-7d3c-45b3-81da-b82fdb14f78d" seriesId="a4af5fb0-0604-4595-bd1b-72b0b376f106" versionNumber="0"?>
+    
+    <num>5.</num>
+    <heading GUID="_b429b7ca-1405-4d1b-bec4-89b3a0cec9bc" eId="resolution_5__hdg">Corporation tax (relief for theatrical productions)</heading>
+    <intro GUID="_51b19809-9bb2-4e80-a66c-575d5259d1ff" eId="resolution_5__intro">
+     <p>That (notwithstanding anything to the contrary in the practice of the House relating to the matters that may be included in Finance Bills) provision may be made—</p>
+    </intro>
+    <level GUID="_719353f2-61d7-4f15-b2a8-d873f8f5d91a" class="para1" eId="resolution_5__para_a">
+     <num>(a)</num>
+     <content>
+      <p>amending section 1217GB of the Corporation Tax Act 2009, and</p>
+     </content>
+    </level>
+    <level GUID="_c41f887c-4e43-4184-b8d3-e2f818998105" class="para1" eId="resolution_5__para_b">
+     <num>(b)</num>
+     <content>
+      <p>amending other provisions of Part 15C of that Act so as to limit or clarify the circumstances in which relief under that Part is available.</p>
+     </content>
+    </level>
+   </hcontainer>
+   <hcontainer GUID="_9f522b47-1c2f-41c3-bc0f-45698f28584e" class="resolution" eId="resolution_6" name="resolution"><?DMS-Component componentId="e7d0bd28-9b9f-436f-99d3-1633036be763" seriesId="7f848ae7-9b7f-4f55-bc6f-08344e514a3d" versionNumber="0"?>
+    
+    <num>6.</num>
+    <heading GUID="_30b346cc-d4a1-4282-ab80-0ec5846604c3" eId="resolution_6__hdg">Corporation tax (relief for orchestral concerts)</heading>
+    <intro GUID="_7a1e5611-bb9f-4064-99dc-bf83af655916" eId="resolution_6__intro">
+     <p>That (notwithstanding anything to the contrary in the practice of the House relating to the matters that may be included in Finance Bills) provision may be made—</p>
+    </intro>
+    <level GUID="_e1cbec35-f84e-4475-b2c8-f177ae988244" class="para1" eId="resolution_6__para_a">
+     <num>(a)</num>
+     <content>
+      <p>amending sections 1217QA and 1217RB of the Corporation Tax Act 2009, and</p>
+     </content>
+    </level>
+    <level GUID="_8bc727ff-2065-4047-b0c1-22ea75f7fc20" class="para1" eId="resolution_6__para_b">
+     <num>(b)</num>
+     <content>
+      <p>amending other provisions of Part 15D of that Act so as to limit or clarify the circumstances in which relief under that Part is available.</p>
+     </content>
+    </level>
+   </hcontainer>
+   <hcontainer GUID="_b8470dd2-ed55-49b6-aed9-a6fdb6b8ed6a" class="resolution" eId="resolution_7" name="resolution"><?DMS-Component componentId="1268b37f-e420-48e3-b33e-6274c4d507c3" seriesId="1d04babf-adb8-4ae2-944b-871c7600a371" versionNumber="0"?>
+    
+    <num>7.</num>
+    <heading GUID="_ddbfa4fa-b4d2-4cea-86f1-0c8f1e295629" eId="resolution_7__hdg">Corporation tax (relief for museum and gallery exhibitions)</heading>
+    <intro GUID="_1f1e8137-788a-4a0b-be73-0187901ec6dc" eId="resolution_7__intro">
+     <p>That (notwithstanding anything to the contrary in the practice of the House relating to the matters that may be included in Finance Bills) provision may be made—</p>
+    </intro>
+    <level GUID="_751f0c2a-8d0d-4f4e-a0dd-6edc3256fd2b" class="para1" eId="resolution_7__para_a">
+     <num>(a)</num>
+     <content>
+      <p>amending section 1218ZCC of the Corporation Tax Act 2009, and</p>
+     </content>
+    </level>
+    <level GUID="_fcaab59f-f1a7-41e1-bf04-b62fb2e1ae4b" class="para1" eId="resolution_7__para_b">
+     <num>(b)</num>
+     <content>
+      <p>amending other provisions of Part 15E of that Act so as to limit or clarify the circumstances in which relief under that Part is available.</p>
+     </content>
+    </level>
+   </hcontainer>
+   <hcontainer GUID="_94255fa2-ad58-4440-8c06-e497815772a1" class="resolution" eId="resolution_8" name="resolution"><?DMS-Component componentId="d9832502-e862-4e02-891f-346eca3effee" seriesId="e6bc41fb-82a2-4749-8201-c90ddb88a4d9" versionNumber="0"?>
+    
+    <num>8.</num>
+    <heading GUID="_baaadcb3-2fca-4aca-b859-84880027c5fe" eId="resolution_8__hdg">Administrative provisions relating to creative reliefs</heading>
+    <intro GUID="_3e737bb9-9544-49ac-8500-e919fe7acb5a" eId="resolution_8__intro">
+     <p>That provision may be made amending Schedule 18 to the Finance Act 1998 in relation to claims under any of Parts 15 to 15E of the Corporation Tax Act 2009.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_a7666bb6-8fb8-4ff5-b19c-0c76f811d310" class="resolution" eId="resolution_9" name="resolution"><?DMS-Component componentId="38e1aef9-7014-41e5-b968-abc187d43f06" seriesId="f5ac02db-84e4-4bb3-b31f-d9b501f037dd" versionNumber="0"?>
+    
+    <num>9.</num>
+    <heading GUID="_f3d4877d-71a3-4aa9-93b9-33586f82f161" eId="resolution_9__hdg">Real Estate Investment Trusts</heading>
+    <intro GUID="_bfe18667-d9d8-46d9-9ad7-8adcfefc03ca" eId="resolution_9__intro">
+     <p>That provision (including provision having retrospective effect) may be made amending—</p>
+    </intro>
+    <level GUID="_321fcf7b-c0a1-43d0-bf59-bfca154c5b70" class="para1" eId="resolution_9__para_a">
+     <num>(a)</num>
+     <content>
+      <p>sections 528 to 528ZB, 529, 535A, 544, 551, 553 and 606 of the Corporation Tax Act 2010, and</p>
+     </content>
+    </level>
+    <level GUID="_beea3053-c881-4ff0-bb1f-625c97fa590c" class="para1" eId="resolution_9__para_b">
+     <num>(b)</num>
+     <content>
+      <p>section 452 of the Taxation (International and Other Provisions) Act 2010.</p>
+     </content>
+    </level>
+   </hcontainer>
+   <hcontainer GUID="_8f725895-6412-4ce7-968a-7d1875b11821" class="resolution" eId="resolution_10" name="resolution"><?DMS-Component componentId="d2131855-3343-4b9d-9158-ea4aacfa01fd" seriesId="b4df013f-f892-41da-ba63-6cda55869e26" versionNumber="0"?>
+    
+    <num>10.</num>
+    <heading GUID="_de64ec48-6883-499c-b04d-b8938124ba3f" eId="resolution_10__hdg">Tonnage tax</heading>
+    <intro GUID="_a148978b-131a-4d99-afc5-74faab63174e" eId="resolution_10__intro">
+     <p>That provision may be made—</p>
+    </intro>
+    <level GUID="_70a78474-d4b5-44d7-bc3e-584861413171" class="para1" eId="resolution_10__para_a">
+     <num>(a)</num>
+     <content>
+      <p>applying tonnage tax to managers of ships, and</p>
+     </content>
+    </level>
+    <level GUID="_41cdbf74-9abc-4891-8d6b-6f2b33ae468a" class="para1" eId="resolution_10__para_b">
+     <num>(b)</num>
+     <content>
+      <p>increasing the capital allowances limit for the leasing of ships.</p>
+     </content>
+    </level>
+   </hcontainer>
+   <hcontainer GUID="_076ae467-d541-4cae-9097-6cfa16e6eeb3" class="resolution" eId="resolution_11" name="resolution"><?DMS-Component componentId="92483a24-5be1-4bb4-b49d-22c6d6ef7bd9" seriesId="76edf940-5624-4abf-9d0d-b925aad821d0" versionNumber="0"?>
+    
+    <num>11.</num>
+    <heading GUID="_c0571be6-c9fe-485c-aba4-3992e5f94041" eId="resolution_11__hdg">Extension of EIS relief and VCT relief</heading>
+    <intro GUID="_7c43b678-695e-48bf-80aa-a1aa88fc5a7b" eId="resolution_11__intro">
+     <p>That (notwithstanding anything to the contrary in the practice of the House relating to the matters that may be included in Finance Bills) provision may be made for EIS relief and VCT relief to be available in relation to shares issued after 5 April 2025.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_fdb9c8f8-5f24-450c-a574-97d1b0104545" class="resolution" eId="resolution_12" name="resolution"><?DMS-Component componentId="734bd5e8-3de3-4751-bc8b-2694b458de6b" seriesId="9d119e05-b790-48da-b8d6-859e224a6c28" versionNumber="0"?>
+    
+    <num>12.</num>
+    <heading GUID="_5d149654-e222-4e32-bb9c-4220cbe852fe" eId="resolution_12__hdg">Relief for payments of compensation to companies (Horizon etc)</heading>
+    <intro GUID="_6cef206a-ca8e-4366-9ac7-77b5d3cf2af6" eId="resolution_12__intro">
+     <p>That provision (including provision having retrospective effect) may be made—</p>
+    </intro>
+    <level GUID="_e3171485-1e54-4153-ac01-64c4795f1711" class="para1" eId="resolution_12__para_a">
+     <num>(a)</num>
+     <content>
+      <p>for relief from tax in the case of payments of compensation to companies in connection with the Horizon computer system used by, and other policies adopted by, Post Office Limited, and</p>
+     </content>
+    </level>
+    <level GUID="_2877f9c6-421e-447a-9419-8123ebc065e2" class="para1" eId="resolution_12__para_b">
+     <num>(b)</num>
+     <content>
+      <p>conferring a power on the Treasury to provide for relief from tax in other cases involving payments of compensation to companies by or on behalf of public authorities.</p>
+     </content>
+    </level>
+   </hcontainer>
+   <hcontainer GUID="_176a07cf-c0ea-458d-9443-26e5578f9c60" class="resolution" eId="resolution_13" name="resolution"><?DMS-Component componentId="246c91e7-d3cf-4638-a4f6-be66bb47963d" seriesId="93130ecb-70a4-4ad3-87b2-680aecd021e1" versionNumber="0"?>
+    
+    <num>13.</num>
+    <heading GUID="_80411f9d-1764-4010-9306-54ae7568d23c" eId="resolution_13__hdg">Enterprise management incentives (time limits)</heading>
+    <intro GUID="_77915bff-ea39-4c01-a3e9-abb9b41c9b76" eId="resolution_13__intro">
+     <p>That provision may be made about the time limits for the giving of notices of options and enquiries under Schedule 5 to the Income Tax (Earnings and Pensions) Act 2003.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_5bfc2cd9-0e41-4c8c-ac7f-193ea4f50bd4" class="resolution" eId="resolution_14" name="resolution"><?DMS-Component componentId="868b58c6-0d4b-4244-a893-803615dd5d0b" seriesId="00e1901c-a044-455f-a7b8-7db55cf4fbbd" versionNumber="0"?>
+    
+    <num>14.</num>
+    <heading GUID="_3f8541cb-a8fd-4b47-9608-3c072888d207" eId="resolution_14__hdg">Pensions (provision connected with abolition of lifetime allowance charge)</heading>
+    <intro GUID="_44593f3b-3cf6-44b7-a123-5b77867ff90b" eId="resolution_14__intro">
+     <p>That provision may be made in consequence of, or otherwise in connection with, the provision made by sections 18, 19 and 23 of the Finance (No.2) Act 2023.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_78a6d9f1-902c-4db4-b51a-179472608455" class="resolution" eId="resolution_15" name="resolution"><?DMS-Component componentId="4dbd8c28-5fec-458f-b488-1f106160d1d8" seriesId="ee2954bb-2ac3-4f33-bdab-3d1b164b08fa" versionNumber="0"?>
+    
+    <num>15.</num>
+    <heading GUID="_35263427-84df-4938-99dd-e17989a92eca" eId="resolution_15__hdg">Pensions (Members of Parliament etc)</heading>
+    <intro GUID="_dd56dc02-03e2-445c-9d42-86f6610ecc0f" eId="resolution_15__intro">
+     <p>That provision may be made in relation to pension schemes for Members of Parliament, Members of the Senedd and Members of the Northern Ireland Assembly in connection with exercises to be undertaken by those schemes for rectifying discrimination in the way in which benefits ceased to be determined by reference to a member’s final salary.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_9bb0bd8f-8a91-4a97-8c57-6039154b0c60" class="resolution" eId="resolution_16" name="resolution"><?DMS-Component componentId="c36352c8-3529-4211-8fe6-dea3f1b2e0ea" seriesId="d1a2124b-16bb-4946-8f9e-2de7f6576bc1" versionNumber="0"?>
+    
+    <num>16.</num>
+    <heading GUID="_a590f446-ad6f-403e-9515-f55db674df53" eId="resolution_16__hdg">Income tax (calculation of profits on cash basis)</heading>
+    <intro GUID="_261f8cc7-384b-43ef-9fe6-160e825757d8" eId="resolution_16__intro">
+     <p>That provision may be made for the purposes of income tax about the calculation of the profits of a trade, profession or vocation on the cash basis.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_e1d8cc50-7c9a-4bd8-a782-8c7ed205fa96" class="resolution" eId="resolution_17" name="resolution"><?DMS-Component componentId="a8cf4dba-f941-46ce-be2f-92918c7ee939" seriesId="13a9cd64-7137-4e70-b5ad-f164ae23efb3" versionNumber="0"?>
+    
+    <num>17.</num>
+    <heading GUID="_374765ee-de5f-402a-b7ca-7f538749240a" eId="resolution_17__hdg">PAYE regulations (special types of payer or payee)</heading>
+    <intro GUID="_5368dc45-11e5-404b-81b5-d270cb858142" eId="resolution_17__intro">
+     <p>That provision may be made enabling PAYE regulations to make provision (including provision having retrospective effect) in a case where—</p>
+    </intro>
+    <level GUID="_8357a09e-2755-4bbe-9758-2edfa845abad" class="para1" eId="resolution_17__para_a">
+     <num>(a)</num>
+     <content>
+      <p>a person would otherwise be liable to pay tax in consequence of being treated under section 61N(3) of the Income Tax (Earnings and Pensions) Act 2003 as having made a payment, and</p>
+     </content>
+    </level>
+    <level GUID="_3f04e843-1337-419a-86fc-6061a9aeef7b" class="para1" eId="resolution_17__para_b">
+     <num>(b)</num>
+     <content>
+      <p>tax has already been paid or assessed in respect of income referable to that payment.</p>
+     </content>
+    </level>
+   </hcontainer>
+   <hcontainer GUID="_91e75c76-c346-484e-9676-f820fc5478f1" class="resolution" eId="resolution_18" name="resolution"><?DMS-Component componentId="386bb675-e418-4937-8dac-e7d2fe4d168e" seriesId="36118caf-eeed-4538-a5f4-b08609a8683e" versionNumber="0"?>
+    
+    <num>18.</num>
+    <heading GUID="_5c943789-bd64-44a2-b653-352f0d84136e" eId="resolution_18__hdg">Carer’s allowance supplement (correction of reference)</heading>
+    <intro GUID="_856a5d6b-07e1-4ffe-b4cf-9ae8cc9c7ba5" eId="resolution_18__intro">
+     <p>That provision (including provision having retrospective effect) may be made correcting the reference to the statutory provision in the entry for carer’s allowance supplement in Table A in section 660 of the Income Tax (Earnings and Pensions) Act 2003.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_ca402aff-bcc7-4f43-b8ef-d9b79839f973" class="resolution" eId="resolution_19" name="resolution"><?DMS-Component componentId="042891f4-8aff-4ffd-97c3-f990b7d55d4c" seriesId="8952c641-8a9c-4d2e-b5c2-c4d54d972e37" versionNumber="0"?>
+    
+    <num>19.</num>
+    <heading GUID="_24db7455-632c-4ae1-8d36-7e096f4cf05b" eId="resolution_19__hdg">Stamp duty reserve tax (growth market exemption)</heading>
+    <intro GUID="_4cc4338f-4b38-441a-9b65-3f423f934f97" eId="resolution_19__intro">
+     <p>That—</p>
+    </intro>
+    <subsection GUID="_4a5d163e-1e7a-4f5d-bf2c-4b8e6cd82fce" class="prov2" eId="resolution_19__subsec_1">
+     <num>(1)</num>
+     <content>
+      <p>Section 99A of the Finance Act 1986 (meaning of “recognised growth market” etc) is amended as follows.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_45e1fa68-8680-4800-be80-d19bc864a39e" class="prov2" eId="resolution_19__subsec_2">
+     <num>(2)</num>
+     <intro GUID="_aab74be3-0a22-49ad-b1a6-507906c9b942" eId="resolution_19__subsec_2__intro">
+      <p>In subsection (5)—</p>
+     </intro>
+     <level GUID="_82a33550-0702-4736-97f1-3255cd2ebc94" class="para1" eId="resolution_19__subsec_2__para_a">
+      <num>(a)</num>
+      <content>
+       <p>in the words before paragraph (a), after “recognised stock exchange” insert “or a qualifying UK multilateral trading facility”;</p>
+      </content>
+     </level>
+     <level GUID="_bf490082-916e-48c8-b226-1ab7eb48aeb0" class="para1" eId="resolution_19__subsec_2__para_b">
+      <num>(b)</num>
+      <content>
+       <p>in paragraph (a), for “£170 million” substitute “£450 million”.</p>
+      </content>
+     </level>
+    </subsection>
+    <subsection GUID="_0778e92c-6f2b-460e-86bd-eb6b94518476" class="prov2" eId="resolution_19__subsec_3">
+     <num>(3)</num>
+     <content>
+      <p><mod>In subsection (6), at the end insert “;<quotedStructure GUID="_d0617a2e-935a-481d-8d5e-0f91aa58adeb" eId="resolution_19__subsec_3__qstr" endQuote="”" startQuote="" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+       <hcontainer GUID="_b64f3ef1-cd0f-4e8a-bca4-25d14ab6ab0b" class="definition" eId="resolution_19__subsec_3__qstr__def_UKmultilateraltradingfacility_" name="definition">
+        <content>
+         <p><def GUID="_19e803dc-f35c-484e-8915-2d842d8d4e45" eId="resolution_19__subsec_3__qstr__def_UKmultilateraltradingfacility" ukl:endQuote="”" ukl:startQuote="“">UK multilateral trading facility</def> has the meaning given by Article 2.1.14A of Regulation (EU) No. 600/2014 of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments as it forms part of assimilated law.</p>
+        </content>
+       </hcontainer>
+       </quotedStructure><inline name="AppendText"/></mod></p>
+     </content>
+    </subsection>
+    <subsection GUID="_dd20e264-5c20-49e5-b1b2-d3719f517024" class="prov2" eId="resolution_19__subsec_4">
+     <num>(4)</num>
+     <content>
+      <p><mod>After subsection (6) insert—<quotedStructure GUID="_f7024ef4-9f3d-48f9-8a11-15452a1ce34c" eId="resolution_19__subsec_4__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+       <subsection GUID="_15b02946-ec7e-40b7-a05a-752fb1b5b8f7" class="prov2" eId="resolution_19__subsec_4__qstr__subsec_6A">
+        <num ukl:autonumber="no">(6A)</num>
+        <intro GUID="_a4a5d354-310a-406e-b1b9-8425c1eec337" eId="resolution_19__subsec_4__qstr__subsec_6A__intro">
+         <p>For the purposes of subsection (5) a UK multilateral trading facility is “qualifying” if—</p>
+        </intro>
+        <level GUID="_611c779c-84fb-4e6f-acf3-c01d8a148d43" class="para1" eId="resolution_19__subsec_4__qstr__subsec_6A__para_a">
+         <num>(a)</num>
+         <content>
+          <p>it is operated by an investment firm within the meaning given by article 3(1) of The Financial Services and Markets Act 2000 (Regulated Activities) Order 2001 (S.I. 2001/544), and</p>
+         </content>
+        </level>
+        <level GUID="_3d146594-a7e2-453c-af06-7e106dc16a58" class="para1" eId="resolution_19__subsec_4__qstr__subsec_6A__para_b">
+         <num>(b)</num>
+         <content>
+          <p>the investment firm has permission under Part 4A of the Financial Services and Markets Act 2000 to carry on the regulated activity (within the meaning of that Act) of operating a multilateral trading facility.</p>
+         </content>
+        </level>
+       </subsection>
+       </quotedStructure><inline name="AppendText"/></mod></p>
+     </content>
+    </subsection>
+    <subsection GUID="_26a80280-4f3e-407c-b6d9-3bc91010aec3" class="prov2" eId="resolution_19__subsec_5">
+     <num>(5)</num>
+     <content>
+      <p>The amendments made by this Resolution come into force on 1 January 2024.</p>
+     </content>
+    </subsection>
+    <wrapUp GUID="_1ed40499-7d23-450c-9c52-d0a7354eab40" eId="resolution_19__wrapup">
+     <p>And it is declared that it is expedient in the public interest that this Resolution should have statutory effect under the provisions of the Provisional Collection of Taxes Act 1968.</p>
+    </wrapUp>
+   </hcontainer>
+   <hcontainer GUID="_2b58757f-c126-46b6-b2cb-d54ae32a6254" class="resolution" eId="resolution_20" name="resolution"><?DMS-Component componentId="25c60140-e7c4-4f38-9191-6eaa9969ac53" seriesId="37885312-1fd4-4474-b02d-4467c59757fc" versionNumber="0"?>
+    
+    <num>20.</num>
+    <heading GUID="_db7d9623-b5be-41d4-b3bf-924f42ffa2c8" eId="resolution_20__hdg">Stamp duty (capital-raising arrangements etc)</heading>
+    <intro GUID="_8d860e2e-f587-4e3a-b57a-bc4e773f340d" eId="resolution_20__intro">
+     <p>That the following provisions have effect for the period beginning with the day on which this Resolution is passed and ending 31 days after the earliest of the dates mentioned in section 50(2) of the Finance Act 1973—</p>
+    </intro>
+    <hcontainer GUID="_c8edf6a7-0e4e-4244-8aec-530a33b7a40a" class="group7" eId="resolution_20__resGroup" name="resolutionGroup"><?DMS-Component componentId="444b85c5-948f-49c4-b774-2f953e07581f" seriesId="406978e3-6dcf-4927-8b15-3c43919f11c3" versionNumber="0"?>
+     
+     <heading GUID="_39b5cb94-4b5c-4feb-a80a-ae6dfa181a6e" eId="resolution_20__resGroup__hdg">Depositary receipts and clearance services</heading>
+     <subsection GUID="_0febd285-8ead-4bae-98bf-4c51ce9ab3a3" class="prov2" eId="resolution_20__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>The Finance Act 1986 is amended as follows.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_3a8eef50-588f-4bfa-b9a8-e15009c7279e" class="prov2" eId="resolution_20__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_c70f4043-b1b3-49d8-9b96-7bc40c561c9d" eId="resolution_20__subsec_2__intro">
+       <p>In section 67 (stamp duty: depositary receipts)—</p>
+      </intro>
+      <level GUID="_b7e6abd7-bbf2-46ad-8142-a04f9b588f0e" class="para1" eId="resolution_20__subsec_2__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in the heading, at the end insert “1.5% charge”;</p>
+       </content>
+      </level>
+      <level GUID="_623a4dd6-718b-47e8-8e54-8bf1d6924115" class="para1" eId="resolution_20__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>in subsection (1) omit “(other than a bearer instrument)”;</p>
+       </content>
+      </level>
+      <level GUID="_bacb9b2b-e595-4d0f-be57-017f5306650a" class="para1" eId="resolution_20__subsec_2__para_c">
+       <num>(c)</num>
+       <content>
+        <p><mod>after that subsection insert—<quotedStructure GUID="_9e2d2639-5557-40d6-b7f4-4bd74fa0e0d3" eId="resolution_20__subsec_2__para_c__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent1">
+         <subsection GUID="_e1f39039-0421-4239-a99d-746e9d27902a" class="prov2" eId="resolution_20__subsec_2__para_c__qstr__subsec_1A">
+          <num ukl:autonumber="no">(1A)</num>
+          <intro GUID="_5c118451-5611-4612-8c9d-d62484e9b8c0" eId="resolution_20__subsec_2__para_c__qstr__subsec_1A__intro">
+           <p>For the purposes of subsection (1) “instrument” does not include—</p>
+          </intro>
+          <level GUID="_78226369-f104-4416-b143-23fd40e73ac0" class="para1" eId="resolution_20__subsec_2__para_c__qstr__subsec_1A__para_a">
+           <num>(a)</num>
+           <content>
+            <p>a bearer instrument (see subsection (9A));</p>
+           </content>
+          </level>
+          <level GUID="_00c7af7b-f2a2-42de-be27-930fb919d48c" class="para1" eId="resolution_20__subsec_2__para_c__qstr__subsec_1A__para_b">
+           <num>(b)</num>
+           <content>
+            <p>an exempt capital-raising instrument (see <ref class="valid" href="#resolution_24__subsec_5__qstr__sec_72ZA" ukl:targetGuid="_5c23e014-4bed-4514-aed4-bf7ee5dbe281" ukl:targetJref="">section 72ZA</ref>);</p>
+           </content>
+          </level>
+          <level GUID="_3a5756bc-f3cd-48c9-b131-fb4f5049177b" class="para1" eId="resolution_20__subsec_2__para_c__qstr__subsec_1A__para_c">
+           <num>(c)</num>
+           <content>
+            <p>an exempt listing instrument (see <ref class="valid" href="#resolution_24__subsec_5__qstr__sec_72ZB" ukl:targetGuid="_b3581d92-30a1-4272-9f36-c83e1fe94e30" ukl:targetJref="">section 72ZB</ref>).</p>
+           </content>
+          </level>
+         </subsection>
+         </quotedStructure><inline name="AppendText">;</inline></mod></p>
+       </content>
+      </level>
+      <level GUID="_fe84b36c-e853-430a-9f29-03bb4b4ce481" class="para1" eId="resolution_20__subsec_2__para_d">
+       <num>(d)</num>
+       <content>
+        <p><mod>after subsection (9) insert—<quotedStructure GUID="_b3f1e4a9-6f8a-428f-9b61-10cc9ec4e320" eId="resolution_20__subsec_2__para_d__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent1">
+         <subsection GUID="_ee3b3e5c-0264-4aef-8b2e-ff0546fa9ce2" class="prov2" eId="resolution_20__subsec_2__para_d__qstr__subsec_9ZA">
+          <num ukl:autonumber="no">(9ZA)</num>
+          <content>
+           <p>Where an instrument transfers shares in a company which are held by the company (whether in accordance with section 724 of the Companies Act 2006 (treasury shares) or otherwise), subsections (2) to (5) do not apply and stamp duty is not chargeable on the instrument.</p>
+          </content>
+         </subsection>
+         </quotedStructure><inline name="AppendText"/></mod></p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_0c5bc180-84d9-4e34-b5fb-dd4041bd6900" class="prov2" eId="resolution_20__subsec_3">
+      <num>(3)</num>
+      <content>
+       <p>In section 69 (depositary receipts: supplementary), in subsection (1), in the words before paragraph (a), for “sections 67 and 68 above” substitute “sections 67, 68 and <ref class="valid" href="#resolution_24__subsec_5__qstr__sec_72ZB" ukl:targetGuid="_b3581d92-30a1-4272-9f36-c83e1fe94e30" ukl:targetJref="">72ZB</ref>”.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_a67fd44f-80df-4be7-974a-d3b1cd252b00" class="prov2" eId="resolution_20__subsec_4">
+      <num>(4)</num>
+      <intro GUID="_6ae9ff48-8ee0-4597-9ea5-ab0d4262eb77" eId="resolution_20__subsec_4__intro">
+       <p>In section 70 (stamp duty: clearance services)—</p>
+      </intro>
+      <level GUID="_0450a4a2-98b7-4bc7-a9bf-659f96e9bb59" class="para1" eId="resolution_20__subsec_4__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in the heading, at the end insert “1.5% charge”;</p>
+       </content>
+      </level>
+      <level GUID="_90fc29aa-0bfb-4d1e-bb1b-238d6080d01e" class="para1" eId="resolution_20__subsec_4__para_b">
+       <num>(b)</num>
+       <content>
+        <p>in subsection (1) omit “(other than a bearer instrument)”;</p>
+       </content>
+      </level>
+      <level GUID="_d103b00b-3907-4977-b9c3-e962f5a48ba1" class="para1" eId="resolution_20__subsec_4__para_c">
+       <num>(c)</num>
+       <content>
+        <p><mod>after that subsection insert—<quotedStructure GUID="_bae505e1-b5ed-448f-b994-04ab5fd8fda6" eId="resolution_20__subsec_4__para_c__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent1">
+         <subsection GUID="_fcb116f7-32b0-4302-805a-c79b3da61830" class="prov2" eId="resolution_20__subsec_4__para_c__qstr__subsec_1A">
+          <num ukl:autonumber="no">(1A)</num>
+          <intro GUID="_a83cbc91-ac8b-4773-aff1-35e1a73eafa2" eId="resolution_20__subsec_4__para_c__qstr__subsec_1A__intro">
+           <p>For the purposes of subsection (1) “instrument” does not include—</p>
+          </intro>
+          <level GUID="_7b2e3ae0-98f1-41bc-8904-8bbbc439bdf4" class="para1" eId="resolution_20__subsec_4__para_c__qstr__subsec_1A__para_a">
+           <num>(a)</num>
+           <content>
+            <p>a bearer instrument (see subsection (9A));</p>
+           </content>
+          </level>
+          <level GUID="_1eb17f67-fd27-4089-a4f8-5aecd8c47430" class="para1" eId="resolution_20__subsec_4__para_c__qstr__subsec_1A__para_b">
+           <num>(b)</num>
+           <content>
+            <p>an exempt capital-raising instrument (see <ref class="valid" href="#resolution_24__subsec_5__qstr__sec_72ZA" ukl:targetGuid="_5c23e014-4bed-4514-aed4-bf7ee5dbe281" ukl:targetJref="">section 72ZA</ref>);</p>
+           </content>
+          </level>
+          <level GUID="_6844ebbd-c210-455f-93e5-4108b0f2f1c1" class="para1" eId="resolution_20__subsec_4__para_c__qstr__subsec_1A__para_c">
+           <num>(c)</num>
+           <content>
+            <p>an exempt listing instrument (see <ref class="valid" href="#resolution_24__subsec_5__qstr__sec_72ZB" ukl:targetGuid="_b3581d92-30a1-4272-9f36-c83e1fe94e30" ukl:targetJref="">section 72ZB</ref>).</p>
+           </content>
+          </level>
+         </subsection>
+         </quotedStructure><inline name="AppendText">;</inline></mod></p>
+       </content>
+      </level>
+      <level GUID="_7020ea1c-de2f-4189-9110-fa34766a5fdb" class="para1" eId="resolution_20__subsec_4__para_d">
+       <num>(d)</num>
+       <content>
+        <p><mod>after subsection (9) insert—<quotedStructure GUID="_7e65bc23-016b-4077-b28d-d5880b693ff4" eId="resolution_20__subsec_4__para_d__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent1">
+         <subsection GUID="_a9637a61-c7ed-47d9-9b5c-637bd6d3e8c5" class="prov2" eId="resolution_20__subsec_4__para_d__qstr__subsec_9ZA">
+          <num ukl:autonumber="no">(9ZA)</num>
+          <content>
+           <p>Where an instrument transfers shares in a company which are held by the company (whether in accordance with section 724 of the Companies Act 2006 (treasury shares) or otherwise), subsections (2) to (5) do not apply and stamp duty is not chargeable on the instrument.</p>
+          </content>
+         </subsection>
+         </quotedStructure><inline name="AppendText"/></mod></p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_0cdcb8be-75a3-48d5-b5de-7c2690c3ab8f" class="prov2" eId="resolution_20__subsec_5">
+      <num>(5)</num>
+      <content>
+       <p><mod>After section 72 (clearance services: supplementary) insert—<quotedStructure GUID="_2cb0ece1-4b81-45f8-9f4f-e4309b1127f7" eId="resolution_20__subsec_5__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+        <hcontainer GUID="_46ca23de-7eb3-4309-95c5-725d1cca46fe" class="group7" eId="resolution_20__subsec_5__qstr__xhdg_72ZA" name="crossheading"><?DMS-Component componentId="e2dfaf59-dd5f-460e-a6ce-6cabb057c267" seriesId="b456b4cb-14c2-4cde-99b8-caf71679719c" versionNumber="0"?>
+         
+         <heading GUID="_d3b596cd-59e7-4f96-bfb9-82dcbcc83460" eId="resolution_20__subsec_5__qstr__xhdg_72ZA__hdg">Meaning of “exempt capital-raising instrument” and “exempt listing instrument”</heading>
+         <section GUID="_5c23e014-4bed-4514-aed4-bf7ee5dbe281" class="prov1" eId="resolution_20__subsec_5__qstr__sec_72ZA"><?DMS-Component componentId="e307eaa4-08d1-45b4-ad60-43dd40bede20" seriesId="bf063264-9923-409d-8f48-95c62c36613b" versionNumber="0"?>
+          
+          <num ukl:autonumber="no">72ZA</num>
+          <heading GUID="_758c4a94-63ac-4bf1-bdd5-05c9c2d2589d" eId="resolution_20__subsec_5__qstr__sec_72ZA__hdg">Meaning of “exempt capital-raising instrument”</heading>
+          <subsection GUID="_c8b786c5-c7b2-406d-890a-29ad28d87a42" class="prov2" eId="resolution_20__subsec_5__qstr__sec_72ZA__subsec_1">
+           <num>(1)</num>
+           <content>
+            <p>For the purposes of sections 67 and 70, an instrument is an “exempt capital-raising instrument” if the instrument transfers relevant securities in the course of capital-raising arrangements.</p>
+           </content>
+          </subsection>
+          <subsection GUID="_46b2d011-2d80-4b30-a6eb-ea1129f30e5f" class="prov2" eId="resolution_20__subsec_5__qstr__sec_72ZA__subsec_2">
+           <num>(2)</num>
+           <content>
+            <p>In this section, “capital-raising arrangements” means arrangements pursuant to which relevant securities are issued by a company for the purpose of raising new capital.</p>
+           </content>
+          </subsection>
+          <subsection GUID="_f6125136-bcc0-4131-8c6b-5fe3a82ad22b" class="prov2" eId="resolution_20__subsec_5__qstr__sec_72ZA__subsec_3">
+           <num>(3)</num>
+           <intro GUID="_20da079f-ac1d-4718-b273-db64de0ed6ea" eId="resolution_20__subsec_5__qstr__sec_72ZA__subsec_3__intro">
+            <p>An instrument is not prevented from being an exempt capital-raising instrument by reason only of a delay in transferring relevant securities where—</p>
+           </intro>
+           <level GUID="_8d632752-4fa7-4a48-817c-5bff11ec2a4e" class="para1" eId="resolution_20__subsec_5__qstr__sec_72ZA__subsec_3__para_a">
+            <num>(a)</num>
+            <intro GUID="_1046e87e-dc1d-44dd-bf73-f4398c3d8a68" eId="resolution_20__subsec_5__qstr__sec_72ZA__subsec_3__para_a__intro">
+             <p>a person (“the transferor”) acquires the relevant securities—</p>
+            </intro>
+            <level GUID="_8cb64554-0adf-41f1-87a9-3e6bd089e13f" class="para2" eId="resolution_20__subsec_5__qstr__sec_72ZA__subsec_3__para_a__subpara_i">
+             <num>(i)</num>
+             <content>
+              <p>before capital-raising arrangements are entered into, or</p>
+             </content>
+            </level>
+            <level GUID="_7e0ed023-9c5f-413e-94cd-1876b0447f5f" class="para2" eId="resolution_20__subsec_5__qstr__sec_72ZA__subsec_3__para_a__subpara_ii">
+             <num>(ii)</num>
+             <content>
+              <p>in the course of capital-raising arrangements,</p>
+             </content>
+            </level>
+           </level>
+           <level GUID="_a330bb9d-596d-406b-845d-c8bdeb524bd8" class="para1" eId="resolution_20__subsec_5__qstr__sec_72ZA__subsec_3__para_b">
+            <num>(b)</num>
+            <content>
+             <p>the transferor is subject to a restriction that has the effect of preventing the transfer of the relevant securities in the course of the capital-raising arrangements, and</p>
+            </content>
+           </level>
+           <level GUID="_615baaef-39db-43e5-a3a2-6a0ea0c73e8c" class="para1" eId="resolution_20__subsec_5__qstr__sec_72ZA__subsec_3__para_c">
+            <num>(c)</num>
+            <content>
+             <p>the instrument transfers the relevant securities as soon as reasonably practicable after the time at which the restriction ceases to have effect.</p>
+            </content>
+           </level>
+          </subsection>
+         </section>
+         <section GUID="_b3581d92-30a1-4272-9f36-c83e1fe94e30" class="prov1" eId="resolution_20__subsec_5__qstr__sec_72ZB"><?DMS-Component componentId="68843450-04c6-4dc6-a753-3c8dca7685ee" seriesId="2a357815-8dbf-4f03-af1a-e32f6f9584ae" versionNumber="0"?>
+          
+          <num>72ZB</num>
+          <heading GUID="_436e2a55-ccce-4f78-9d05-171637a140d8" eId="resolution_20__subsec_5__qstr__sec_72ZB__hdg">Meaning of “exempt listing instrument”</heading>
+          <subsection GUID="_7a04e211-f19c-451b-be32-99e36b46fa7a" class="prov2" eId="resolution_20__subsec_5__qstr__sec_72ZB__subsec_1">
+           <num ukl:autonumber="no">(1)</num>
+           <intro GUID="_a90682f6-f89c-433e-8472-ba3d51da6e3c" eId="resolution_20__subsec_5__qstr__sec_72ZB__subsec_1__intro">
+            <p>For the purposes of sections 67 and 70, an instrument is an “exempt listing instrument” if—</p>
+           </intro>
+           <level GUID="_59df80a9-d878-4520-be06-bdd108c6a196" class="para1" eId="resolution_20__subsec_5__qstr__sec_72ZB__subsec_1__para_a">
+            <num>(a)</num>
+            <content>
+             <p>the instrument transfers relevant securities of a company in the course of qualifying listing arrangements, and</p>
+            </content>
+           </level>
+           <level GUID="_c3c12d84-9123-4b3e-b4f1-1b5b6745df71" class="para1" eId="resolution_20__subsec_5__qstr__sec_72ZB__subsec_1__para_b">
+            <num>(b)</num>
+            <content>
+             <p>those arrangements do not affect the beneficial ownership of the relevant securities.</p>
+            </content>
+           </level>
+          </subsection>
+          <subsection GUID="_faa85ca1-bf15-47ee-b2f1-bf543f00cb8c" class="prov2" eId="resolution_20__subsec_5__qstr__sec_72ZB__subsec_2">
+           <num>(2)</num>
+           <content>
+            <p>In this section, “listing arrangements” means arrangements pursuant to which relevant securities, or depositary receipts for relevant securities, are listed on a recognised stock exchange.</p>
+           </content>
+          </subsection>
+          <subsection GUID="_be804780-2da4-4e8c-8d44-bbfda7078013" class="prov2" eId="resolution_20__subsec_5__qstr__sec_72ZB__subsec_3">
+           <num>(3)</num>
+           <content>
+            <p>For the purposes of this section, listing arrangements are “qualifying” if, immediately before the first transfer of relevant securities in the course of the listing arrangements, no relevant securities in the company or depositary receipts for relevant securities in the company are listed on the recognised stock exchange to which the listing arrangements relate.</p>
+           </content>
+          </subsection>
+          <subsection GUID="_4429c2dd-1772-48b0-b0a5-df8c89412c23" class="prov2" eId="resolution_20__subsec_5__qstr__sec_72ZB__subsec_4">
+           <num>(4)</num>
+           <intro GUID="_158fcf24-e4d3-4c45-9528-dea92d09058d" eId="resolution_20__subsec_5__qstr__sec_72ZB__subsec_4__intro">
+            <p>An instrument is not prevented from being an exempt listing instrument by reason only of a delay in transferring relevant securities where—</p>
+           </intro>
+           <level GUID="_f8d1cbc7-9527-4b16-a3bb-48cd87e0f037" class="para1" eId="resolution_20__subsec_5__qstr__sec_72ZB__subsec_4__para_a">
+            <num>(a)</num>
+            <content>
+             <p>a person (“the transferor”) acquires the relevant securities before qualifying listing arrangements are entered into,</p>
+            </content>
+           </level>
+           <level GUID="_680fa7eb-5aa6-437b-b568-16e703d82ee5" class="para1" eId="resolution_20__subsec_5__qstr__sec_72ZB__subsec_4__para_b">
+            <num>(b)</num>
+            <content>
+             <p>the transferor is subject to a restriction that has the effect of preventing the transfer of the relevant securities in the course of the qualifying listing arrangements, and</p>
+            </content>
+           </level>
+           <level GUID="_d6710fbb-c904-4010-bae6-2ef1312b6e60" class="para1" eId="resolution_20__subsec_5__qstr__sec_72ZB__subsec_4__para_c">
+            <num>(c)</num>
+            <content>
+             <p>the instrument transfers the relevant securities as soon as reasonably practicable after the time at which the restriction ceases to have effect.</p>
+            </content>
+           </level>
+          </subsection>
+          <subsection GUID="_88573ff4-d8bf-4772-a1bd-8f6a38b5f274" class="prov2" eId="resolution_20__subsec_5__qstr__sec_72ZB__subsec_5">
+           <num>(5)</num>
+           <content>
+            <p>Section 1005 of the Income Tax Act 2007 (meaning of “recognised stock exchange”, “listed” etc) applies in relation to this section as it applies in relation to the Income Tax Acts.</p>
+           </content>
+          </subsection>
+         </section>
+        </hcontainer>
+        </quotedStructure><inline name="AppendText"/></mod></p>
+      </content>
+     </subsection>
+    </hcontainer>
+    <hcontainer GUID="_abf64240-47f1-46b0-8272-caf9dc6b75e4" class="group7" eId="resolution_20__resGroup__oc_2" name="resolutionGroup"><?DMS-Component componentId="bae35e5b-2546-4d1c-a185-191ab2d81c61" seriesId="d9287bff-9fe6-4866-a7c9-765c44418f66" versionNumber="0"?>
+     
+     <heading GUID="_c929d8fb-7cb9-4394-8819-ea04c006fcdb" eId="resolution_20__resGroup__oc_2__hdg">Bearer instruments</heading>
+     <subsection GUID="_849dbcc7-96e5-4d5a-b2f1-338f07c05899" class="prov2" eId="resolution_20__subsec_6">
+      <num>(6)</num>
+      <intro GUID="_a4d3087d-65af-490e-90ff-8550879de5a8" eId="resolution_20__subsec_6__intro">
+       <p>In section 79 of the Finance Act 1986 (stamp duty: loan capital: new provisions), in subsection (2)—</p>
+      </intro>
+      <level GUID="_ef2727bb-036f-4459-b85a-1fe93cd41c1e" class="para1" eId="resolution_20__subsec_6__para_a">
+       <num>(a)</num>
+       <content>
+        <p>omit “on the issue of an instrument which relates to loan capital or”;</p>
+       </content>
+      </level>
+      <level GUID="_ff123706-56ab-4c1a-a650-19c88cc2f8bf" class="para1" eId="resolution_20__subsec_6__para_b">
+       <num>(b)</num>
+       <content>
+        <p>for “such an instrument” substitute “an instrument which relates to loan capital”.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_1639addb-4eef-4ba7-822d-7d33168450ef" class="prov2" eId="resolution_20__subsec_7">
+      <num>(7)</num>
+      <intro GUID="_dd7c7fae-33aa-403b-93a2-a26aee0090aa" eId="resolution_20__subsec_7__intro">
+       <p>Section 50 of the Finance Act 1987 (warrants to purchase Government stock etc) is amended as follows—</p>
+      </intro>
+      <level GUID="_ffb07e98-436c-422c-aae7-541caca77768" class="para1" eId="resolution_20__subsec_7__para_a">
+       <num>(a)</num>
+       <intro GUID="_c08db3cd-87d1-4d67-a5f1-ede4b81f8621" eId="resolution_20__subsec_7__para_a__intro">
+        <p>in subsection (2)—</p>
+       </intro>
+       <level GUID="_b668e474-e60f-4aa2-b748-5c68d1c755fe" class="para2" eId="resolution_20__subsec_7__para_a__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>omit paragraph (a);</p>
+        </content>
+       </level>
+       <level GUID="_c5d6cb31-f664-410c-b462-7bee9e553e20" class="para2" eId="resolution_20__subsec_7__para_a__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>in paragraph (b), for “such an instrument” substitute “an instrument which relates to an interest, right or option within subsection (1)”.</p>
+        </content>
+       </level>
+      </level>
+      <level GUID="_ba5964b4-934f-4520-8439-743a4010a6fc" class="para1" eId="resolution_20__subsec_7__para_b">
+       <num>(b)</num>
+       <intro GUID="_0284f8d0-7270-41c8-9134-2264f7b70923" eId="resolution_20__subsec_7__para_b__intro">
+        <p>in subsection (3)—</p>
+       </intro>
+       <level GUID="_e9f6b45e-669b-4f74-99f0-05002bcaecd6" class="para2" eId="resolution_20__subsec_7__para_b__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>omit paragraph (b);</p>
+        </content>
+       </level>
+       <level GUID="_fe348e12-4512-49ea-bcde-cecf0bf9ebaf" class="para2" eId="resolution_20__subsec_7__para_b__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>in paragraph (c), for “under that Schedule” substitute “under Schedule 15 to the Finance Act 1999 (stamp duty: bearer instruments)”.</p>
+        </content>
+       </level>
+      </level>
+     </subsection>
+     <subsection GUID="_dcdafb18-cf5d-4edb-880b-42bdd9e732a6" class="prov2" eId="resolution_20__subsec_8">
+      <num>(8)</num>
+      <intro GUID="_e20e4db7-ff19-488b-971e-0c48909d1cf2" eId="resolution_20__subsec_8__intro">
+       <p>Schedule 15 to the Finance Act 1999 (stamp duty: bearer instruments) is amended as follows—</p>
+      </intro>
+      <level GUID="_c5672c79-688c-4012-bf40-740e0842bca0" class="para1" eId="resolution_20__subsec_8__para_a">
+       <num>(a)</num>
+       <content>
+        <p>omit paragraph 1 (charge on issue of instrument) and the italic heading before it;</p>
+       </content>
+      </level>
+      <level GUID="_f32f32fb-0604-40f7-91db-0721d2575ddc" class="para1" eId="resolution_20__subsec_8__para_b">
+       <num>(b)</num>
+       <content>
+        <p>in paragraph 2 (charge on transfers of stock by means of instrument), in the words before paragraph (a) omit “duty was not chargeable under paragraph 1 on the issue of the instrument and”;</p>
+       </content>
+      </level>
+      <level GUID="_ae8fc35d-4b53-429e-8da3-710c9c82e9a2" class="para1" eId="resolution_20__subsec_8__para_c">
+       <num>(c)</num>
+       <content>
+        <p>in paragraph 4 (1.5% rate of duty) omit “or 6”;</p>
+       </content>
+      </level>
+      <level GUID="_777a70e1-b86f-424f-9dc1-3a882eff948c" class="para1" eId="resolution_20__subsec_8__para_d">
+       <num>(d)</num>
+       <content>
+        <p>omit paragraph 7 (ascertainment of market value for charge on issue of instrument);</p>
+       </content>
+      </level>
+      <level GUID="_8a7c424a-d700-422d-9ecd-fdabdce9fc5a" class="para1" eId="resolution_20__subsec_8__para_e">
+       <num>(e)</num>
+       <intro GUID="_540167ab-7d6f-41b4-aa2c-2aa07899cde8" eId="resolution_20__subsec_8__para_e__intro">
+        <p>in paragraph 17 (exemption for issue of instruments relating to non-sterling stock), in sub-paragraph (1)—</p>
+       </intro>
+       <level GUID="_1dfc057e-ae2b-4f68-89cc-1539b1eb9829" class="para2" eId="resolution_20__subsec_8__para_e__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>in the words before paragraph (a) omit “the issue of”;</p>
+        </content>
+       </level>
+       <level GUID="_4b71ada4-6680-4fc1-a65b-405e94f216f2" class="para2" eId="resolution_20__subsec_8__para_e__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>omit the words after paragraph (b);</p>
+        </content>
+       </level>
+      </level>
+      <level GUID="_1ea58d2c-a2b9-457c-849e-a2fbf66b8945" class="para1" eId="resolution_20__subsec_8__para_f">
+       <num>(f)</num>
+       <content>
+        <p>omit the italic heading before paragraph 21;</p>
+       </content>
+      </level>
+      <level GUID="_68a2dc38-c968-441f-b675-d033a82948af" class="para1" eId="resolution_20__subsec_8__para_g">
+       <num>(g)</num>
+       <content>
+        <p>omit paragraph 21 (procedure for stamping instruments where duty chargeable on issue);</p>
+       </content>
+      </level>
+      <level GUID="_e610d5c5-ae1f-4d3e-89ed-e391377f2ae9" class="para1" eId="resolution_20__subsec_8__para_h">
+       <num>(h)</num>
+       <content>
+        <p>omit paragraph 22 (consequences of default in complying with procedure for stamping).</p>
+       </content>
+      </level>
+     </subsection>
+    </hcontainer>
+    <hcontainer GUID="_ee880195-8b5c-4ea6-bf2f-25b86477ec8a" class="group7" eId="resolution_20__resGroup__oc_1" name="resolutionGroup"><?DMS-Component componentId="c5d4d282-895a-4c3f-a9b6-7237fa9563a9" seriesId="4a396a38-6f76-4521-b6fb-f8d57b998dd0" versionNumber="0"?>
+     
+     <heading GUID="_8672428d-a105-4c18-aa9d-583b182d7619" eId="resolution_20__resGroup__oc_1__hdg">Commencement and transitional provision</heading>
+     <subsection GUID="_f62f1e6d-8647-46c4-9210-c95dc5b78861" class="prov2" eId="resolution_20__subsec_9">
+      <num>(9)</num>
+      <content>
+       <p>The amendments made by this Resolution have effect in relation to instruments executed on or after 1 January 2024.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_af5bda3c-04e6-478a-80af-fecca46a1046" class="prov2" eId="resolution_20__subsec_10">
+      <num>(10)</num>
+      <content>
+       <p>Paragraph (11) applies in relation to securities constituted by or transferable by means of an instrument issued before 1 January 2024.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_ce861384-4d9a-4212-9296-36db30786fcf" class="prov2" eId="resolution_20__subsec_11">
+      <num>(11)</num>
+      <content>
+       <p>The amendments made by paragraph (7) are to be disregarded.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_6f1566e5-bc9f-4d04-8804-018fcdf35b56" class="prov2" eId="resolution_20__subsec_12">
+      <num>(12)</num>
+      <intro GUID="_5f75ba91-ca40-4493-8518-024e98deafb5" eId="resolution_20__subsec_12__intro">
+       <p>Paragraph (13) applies in relation to bearer instruments issued before 1 January 2024—</p>
+      </intro>
+      <level GUID="_4706989f-d999-4a62-b377-548d39335b9f" class="para1" eId="resolution_20__subsec_12__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in the United Kingdom, or</p>
+       </content>
+      </level>
+      <level GUID="_b503ee45-b55e-462c-b59c-63809931b50c" class="para1" eId="resolution_20__subsec_12__para_b">
+       <num>(b)</num>
+       <content>
+        <p>outside the United Kingdom by or on behalf of a UK company.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_a97f4431-605a-4fd1-9207-003fb5fa3e6f" class="prov2" eId="resolution_20__subsec_13">
+      <num>(13)</num>
+      <content>
+       <p>The amendment made by paragraph (8)(b) is to be disregarded.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_6fd32041-e2d7-4a7e-8c04-092b5818118a" class="prov2" eId="resolution_20__subsec_14">
+      <num>(14)</num>
+      <content>
+       <p>In paragraph (12) “bearer instrument” and “UK company” have the same meaning as in Schedule 15 to the Finance Act 1999 (see paragraphs 3 and 11 of that Schedule).</p>
+      </content>
+     </subsection>
+    </hcontainer>
+    <wrapUp GUID="_0e22b08f-8ec0-4535-9fe1-8f6740844d36" eId="resolution_20__wrapup">
+     <p>And it is declared that it is expedient in the public interest that this Resolution should have statutory effect under the provisions of section 50 of the Finance Act 1973.</p>
+    </wrapUp>
+   </hcontainer>
+   <hcontainer GUID="_d692a04a-b1ea-47ec-8baa-7242471c9536" class="resolution" eId="resolution_21" name="resolution"><?DMS-Component componentId="530e1655-ce5d-4480-a133-6fb265d8f3a4" seriesId="9f5c3ca6-c0e7-430f-b53b-eed3c3bb3c69" versionNumber="0"?>
+    
+    <num>21.</num>
+    <heading GUID="_603e37aa-1939-41e2-84ac-d51bf24d0d99" eId="resolution_21__hdg">Stamp duty reserve tax (capital-raising arrangements etc)</heading>
+    <intro GUID="_aca39762-e07b-4ca5-acf2-e2060b6975b9" eId="resolution_21__intro">
+     <p>That—</p>
+    </intro>
+    <hcontainer GUID="_1c68d16f-579d-4a86-b400-94e7c69a073b" class="group7" eId="resolution_21__resGroup" name="resolutionGroup"><?DMS-Component componentId="d3d977a2-22e9-49e4-b8d5-502fff790a61" seriesId="c833ad63-10f4-4288-b1a6-36b7ccce5822" versionNumber="0"?>
+     
+     <heading GUID="_592998a8-d42c-4219-a705-fef7e1c6e44b" eId="resolution_21__resGroup__hdg">Depositary receipts and clearance services</heading>
+     <subsection GUID="_950a45ad-818b-473b-9e54-12d12f56d279" class="prov2" eId="resolution_21__subsec_1">
+      <num>(1)</num>
+      <content>
+       <p>The Finance Act 1986 is amended as follows.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_9ab326a2-e8cd-4d13-9d2c-d58ce563b3fb" class="prov2" eId="resolution_21__subsec_2">
+      <num>(2)</num>
+      <intro GUID="_6b0a4a70-459d-4759-9688-ee50904f6e92" eId="resolution_21__subsec_2__intro">
+       <p>Section 90 (section 87: other exceptions) is amended as follows—</p>
+      </intro>
+      <level GUID="_7616a5ba-95f8-4097-bfc0-8b2db7f54744" class="para1" eId="resolution_21__subsec_2__para_a">
+       <num>(a)</num>
+       <intro GUID="_9b72c59f-dadb-4d19-b21e-eb283d4bd1cb" eId="resolution_21__subsec_2__para_a__intro">
+        <p>in subsection (3C)—</p>
+       </intro>
+       <level GUID="_bcecf179-70b2-4080-a315-bd0d360cc706" class="para2" eId="resolution_21__subsec_2__para_a__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>at the end of paragraph (a) insert “and”;</p>
+        </content>
+       </level>
+       <level GUID="_5354317d-e555-4792-9893-caca817ef2f0" class="para2" eId="resolution_21__subsec_2__para_a__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>omit paragraph (b);</p>
+        </content>
+       </level>
+      </level>
+      <level GUID="_962e1899-0de7-4acc-b8c3-2361a4eade88" class="para1" eId="resolution_21__subsec_2__para_b">
+       <num>(b)</num>
+       <content>
+        <p>in subsection (3E) omit paragraph (b);</p>
+       </content>
+      </level>
+      <level GUID="_ea4abcd2-c8c1-4b69-abe6-0c525a101ba6" class="para1" eId="resolution_21__subsec_2__para_c">
+       <num>(c)</num>
+       <intro GUID="_96b390a0-5ded-4fb5-81f5-65123999d870" eId="resolution_21__subsec_2__para_c__intro">
+        <p>in subsection (4)—</p>
+       </intro>
+       <level GUID="_4659fb1f-41f7-46ce-8868-a59bf3bc2733" class="para2" eId="resolution_21__subsec_2__para_c__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>the words from “falling within” to the end become paragraph (a);</p>
+        </content>
+       </level>
+       <level GUID="_ab5e780d-1141-42ff-b69c-9f7f736ebd49" class="para2" eId="resolution_21__subsec_2__para_c__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p><mod>after that paragraph insert “, or<quotedStructure GUID="_ec12ffba-b90c-43fc-92b7-811136353189" eId="resolution_21__subsec_2__para_c__subpara_ii__qstr" endQuote="”" startQuote="" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+          <level GUID="_0e47dd57-c44b-4075-a568-f44490fa3e06" class="para1" eId="resolution_21__subsec_2__para_c__subpara_ii__qstr__para_b">
+           <num ukl:autonumber="no">(b)</num>
+           <content>
+            <p>which would fall within section 93(1) or section 96(1) if the references in section 93 or section 96 (as the case may be) to the transfer of chargeable securities included the issue of chargeable securities.</p>
+           </content>
+          </level>
+          </quotedStructure><inline name="AppendText"/></mod></p>
+        </content>
+       </level>
+      </level>
+     </subsection>
+     <subsection GUID="_bd760d35-2f6d-40d3-a8d5-fc0584164179" class="prov2" eId="resolution_21__subsec_3">
+      <num>(3)</num>
+      <content>
+       <p>In the italic heading before section 93 (SDRT: depositary receipts), at the end insert “: depositary receipts”.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_72feabe0-edc9-49f5-acb4-3c6a000c0aa7" class="prov2" eId="resolution_21__subsec_4">
+      <num>(4)</num>
+      <intro GUID="_68dc0116-314d-430e-b4e7-d1b6a5be7c1b" eId="resolution_21__subsec_4__intro">
+       <p>In section 93—</p>
+      </intro>
+      <level GUID="_35806531-610c-4bf0-99e0-31a2ba07b967" class="para1" eId="resolution_21__subsec_4__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in the heading, at the end insert “: 1.5% charge”;</p>
+       </content>
+      </level>
+      <level GUID="_ad60a52d-b2f3-437d-9be2-80bece0a0569" class="para1" eId="resolution_21__subsec_4__para_b">
+       <num>(b)</num>
+       <intro GUID="_81f595c2-db14-45cd-b569-149efa125add" eId="resolution_21__subsec_4__para_b__intro">
+        <p>in subsection (1)—</p>
+       </intro>
+       <level GUID="_a4025cd8-3d6a-48aa-9df9-c0abecf2658c" class="para2" eId="resolution_21__subsec_4__para_b__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>in the words before paragraph (a) omit “Subject to subsection (7) below and section 95 below,”;</p>
+        </content>
+       </level>
+       <level GUID="_0cc2079e-930b-486a-82bf-933bc24c4d28" class="para2" eId="resolution_21__subsec_4__para_b__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>in paragraph (b) omit “or issued”;</p>
+        </content>
+       </level>
+      </level>
+      <level GUID="_37137ecf-8095-4af8-abd7-cbd0d0b38443" class="para1" eId="resolution_21__subsec_4__para_c">
+       <num>(c)</num>
+       <content>
+        <p><mod>after that subsection insert—<quotedStructure GUID="_c11fc629-d46f-47ff-834d-d6fde0874b58" eId="resolution_21__subsec_4__para_c__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent1">
+         <subsection GUID="_55d4ffb2-1089-45f3-ba8b-5bf09bec5510" class="prov2" eId="resolution_21__subsec_4__para_c__qstr__subsec_1A">
+          <num ukl:autonumber="no">(1A)</num>
+          <intro GUID="_125aadb7-6121-424f-9d16-aa99f9a36532" eId="resolution_21__subsec_4__para_c__qstr__subsec_1A__intro">
+           <p>The following provisions contain exceptions to the charge to stamp duty reserve tax under this section—</p>
+          </intro>
+          <level GUID="_e3e4bee2-f0c2-49ca-90fd-e2fa3b3cc6ae" class="para1" eId="resolution_21__subsec_4__para_c__qstr__subsec_1A__para_a">
+           <num>(a)</num>
+           <content>
+            <p>subsection (7) of this section (exception so far as stamp duty is chargeable);</p>
+           </content>
+          </level>
+          <level GUID="_08e1f5e8-47f5-4c7e-835d-7eb34edc49ec" class="para1" eId="resolution_21__subsec_4__para_c__qstr__subsec_1A__para_b">
+           <num>(b)</num>
+           <content>
+            <p>section 95 (general exceptions);</p>
+           </content>
+          </level>
+          <level GUID="_3e56ef31-2942-46b1-b854-2f7c18120165" class="para1" eId="resolution_21__subsec_4__para_c__qstr__subsec_1A__para_c">
+           <num>(c)</num>
+           <content>
+            <p>section 95A (replacement securities);</p>
+           </content>
+          </level>
+          <level GUID="_6d9b7ff2-66ef-4fdf-8107-6acc68dfaf49" class="para1" eId="resolution_21__subsec_4__para_c__qstr__subsec_1A__para_d">
+           <num>(d)</num>
+           <content>
+            <p><ref class="valid" href="#resolution_25__subsec_14__qstr__sec_97AB" ukl:targetGuid="_0f889aa5-6f62-452b-b998-9f9fcf9529a2" ukl:targetJref="">section 97AB</ref> (exempt capital-raising transfers);</p>
+           </content>
+          </level>
+          <level GUID="_22ac0713-7631-46a3-b4ff-b296544105d4" class="para1" eId="resolution_21__subsec_4__para_c__qstr__subsec_1A__para_e">
+           <num>(e)</num>
+           <content>
+            <p><ref class="valid" href="#resolution_25__subsec_14__qstr__sec_97AC" ukl:targetGuid="_cdc7bec6-ece2-4c67-9bc3-45a8f754eaf2" ukl:targetJref="">section 97AC</ref> (exempt listing transfers);</p>
+           </content>
+          </level>
+          <level GUID="_5dff523c-6da0-49bd-89d0-218bf64b08e5" class="para1" eId="resolution_21__subsec_4__para_c__qstr__subsec_1A__para_f">
+           <num>(f)</num>
+           <content>
+            <p><ref class="valid" href="#resolution_25__subsec_14__qstr__sec_97AD" ukl:targetGuid="_b268e54a-41c3-4ccc-8702-dcdb87ec00aa" ukl:targetJref="">section 97AD</ref> (exception for transfers of shares held by issuing company);</p>
+           </content>
+          </level>
+          <level GUID="_164b9933-ffde-46fd-85b9-e6050173f1a1" class="para1" eId="resolution_21__subsec_4__para_c__qstr__subsec_1A__para_g">
+           <num>(g)</num>
+           <content>
+            <p>section 97B (transfers between depositary receipt system and clearance system).</p>
+           </content>
+          </level>
+         </subsection>
+         </quotedStructure><inline name="AppendText">;</inline></mod></p>
+       </content>
+      </level>
+      <level GUID="_5993b89a-b81c-4321-9c09-5dcac141a027" class="para1" eId="resolution_21__subsec_4__para_d">
+       <num>(d)</num>
+       <content>
+        <p>in subsection (4) omit paragraph (a);</p>
+       </content>
+      </level>
+      <level GUID="_83502a92-52f3-4530-afd0-7858cb2a597c" class="para1" eId="resolution_21__subsec_4__para_e">
+       <num>(e)</num>
+       <content>
+        <p>omit subsection (10).</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_942f4ddc-c0e0-4576-8645-f0da72134cc1" class="prov2" eId="resolution_21__subsec_5">
+      <num>(5)</num>
+      <content>
+       <p>In section 94 (depositary receipts: supplementary), in subsection (1), in the words before paragraph (a), for “section 93 above” substitute “sections 93 and <ref class="valid" href="#resolution_25__subsec_14__qstr__sec_97AC" ukl:targetGuid="_cdc7bec6-ece2-4c67-9bc3-45a8f754eaf2" ukl:targetJref="">97AC</ref>”.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_7a73868c-543e-4104-bf46-509299b71a31" class="prov2" eId="resolution_21__subsec_6">
+      <num>(6)</num>
+      <intro GUID="_810d00c2-33ed-4f90-8343-a64829fedd1d" eId="resolution_21__subsec_6__intro">
+       <p>In section 95 (depositary receipts: exceptions)—</p>
+      </intro>
+      <level GUID="_305bbaa5-036c-4946-b7e0-540b96c2186c" class="para1" eId="resolution_21__subsec_6__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in subsection (1), in the words after paragraph (b) omit “subject to section 97C,”;</p>
+       </content>
+      </level>
+      <level GUID="_836cb99a-d23f-4883-a0e5-ecfcb5716e48" class="para1" eId="resolution_21__subsec_6__para_b">
+       <num>(b)</num>
+       <content>
+        <p>in subsection (2), in the words before paragraph (a) omit “, issue”;</p>
+       </content>
+      </level>
+      <level GUID="_587dc29e-36d1-404f-bf7d-38c070dc2d60" class="para1" eId="resolution_21__subsec_6__para_c">
+       <num>(c)</num>
+       <content>
+        <p>omit subsections (3) to (5);</p>
+       </content>
+      </level>
+      <level GUID="_db6fc4f6-051b-4c5d-9f9e-ca8c7c02067a" class="para1" eId="resolution_21__subsec_6__para_d">
+       <num>(d)</num>
+       <content>
+        <p>omit subsection (7).</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_a62a0cb2-8361-4cc8-801c-06b9b63cdd95" class="prov2" eId="resolution_21__subsec_7">
+      <num>(7)</num>
+      <intro GUID="_96ff51f6-5f56-4345-9663-4ce43524d86f" eId="resolution_21__subsec_7__intro">
+       <p>In section 95A (depositary receipts: exception for replacement securities)—</p>
+      </intro>
+      <level GUID="_0787177f-7914-4e83-945e-c6a973f1db54" class="para1" eId="resolution_21__subsec_7__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in subsection (1) omit “, issue”;</p>
+       </content>
+      </level>
+      <level GUID="_6f63b5ed-21df-404f-8ec8-5bdb6c85972c" class="para1" eId="resolution_21__subsec_7__para_b">
+       <num>(b)</num>
+       <intro GUID="_a600a508-1a9e-4b21-9128-2ca666bf0cfb" eId="resolution_21__subsec_7__para_b__intro">
+        <p>in subsection (3)—</p>
+       </intro>
+       <level GUID="_4d9f6f85-f9c0-4cb0-8132-55018811f2d8" class="para2" eId="resolution_21__subsec_7__para_b__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>in paragraph (a), in the words before sub-paragraph (i) omit “, issue”;</p>
+        </content>
+       </level>
+       <level GUID="_6a53cb2e-aff6-4970-8121-78f00f87de0b" class="para2" eId="resolution_21__subsec_7__para_b__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>in paragraph (b) omit “or (3)”;</p>
+        </content>
+       </level>
+      </level>
+      <level GUID="_63d49c1c-cf1b-4926-bc3b-b18f76964a0a" class="para1" eId="resolution_21__subsec_7__para_c">
+       <num>(c)</num>
+       <content>
+        <p>in subsection (4), in paragraph (a) omit “, issued”.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_b8862f78-f146-4b85-8c17-a6bf20cecf49" class="prov2" eId="resolution_21__subsec_8">
+      <num>(8)</num>
+      <content>
+       <p><mod>Before section 96 (SDRT: clearance services) insert—<quotedStructure GUID="_be4c7aa6-b6a7-4b7f-bd5c-fe07f86d3636" eId="resolution_21__subsec_8__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+        <hcontainer GUID="_82aa9327-4fa1-49e5-a6a6-3e7a7a149273" class="group7" eId="resolution_21__subsec_8__qstr__xhdg" name="crossheading"><?DMS-Component componentId="2a31126a-9924-4675-b06a-4de4738c542f" seriesId="2cd87df1-d120-4546-abb1-9341726b5e69" versionNumber="0"?>
+         
+         <heading GUID="_d5c20937-c720-4ba3-8d32-c52c6047a91a" eId="resolution_21__subsec_8__qstr__xhdg__hdg">Other charges: clearance services</heading>
+        </hcontainer>
+        </quotedStructure><inline name="AppendText">.</inline></mod></p>
+      </content>
+     </subsection>
+     <subsection GUID="_cbebc8d1-fc53-4224-b4e7-b8948adb4e20" class="prov2" eId="resolution_21__subsec_9">
+      <num>(9)</num>
+      <intro GUID="_32741b7a-a8ee-4531-bd55-b943d62c57d7" eId="resolution_21__subsec_9__intro">
+       <p>In section 96—</p>
+      </intro>
+      <level GUID="_58467241-3852-4001-82d7-5d0be496b3ba" class="para1" eId="resolution_21__subsec_9__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in the heading, at the end insert “: 1.5% charge”;</p>
+       </content>
+      </level>
+      <level GUID="_01d576dd-78f0-411d-a1eb-637b9b9b10a6" class="para1" eId="resolution_21__subsec_9__para_b">
+       <num>(b)</num>
+       <intro GUID="_eb9088a9-04c6-481a-a35a-138205c11b21" eId="resolution_21__subsec_9__para_b__intro">
+        <p>in subsection (1)—</p>
+       </intro>
+       <level GUID="_2d93f700-a03d-43e5-a8c5-597688b9a635" class="para2" eId="resolution_21__subsec_9__para_b__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>in the words before paragraph (a) omit “Subject to subsection (5) below and sections 97 and 97A below,”;</p>
+        </content>
+       </level>
+       <level GUID="_1666f249-4621-475f-b891-56114d319043" class="para2" eId="resolution_21__subsec_9__para_b__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>in paragraph (b) omit “or issued”;</p>
+        </content>
+       </level>
+      </level>
+      <level GUID="_b8c062a1-a793-46bb-9332-e97e9e443617" class="para1" eId="resolution_21__subsec_9__para_c">
+       <num>(c)</num>
+       <content>
+        <p><mod>after that subsection insert—<quotedStructure GUID="_aa0cb1b5-c8c7-498e-964d-74f898991ff8" eId="resolution_21__subsec_9__para_c__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent1">
+         <subsection GUID="_1d86a537-7065-4aa2-b089-3ae48bd683e9" class="prov2" eId="resolution_21__subsec_9__para_c__qstr__subsec_1A">
+          <num ukl:autonumber="no">(1A)</num>
+          <intro GUID="_2567290f-0313-4661-b838-6f8be4cae7c1" eId="resolution_21__subsec_9__para_c__qstr__subsec_1A__intro">
+           <p>The following provisions contain exceptions to the charge to stamp duty reserve tax under this section—</p>
+          </intro>
+          <level GUID="_32f516a4-c54a-4892-b937-f92d86851644" class="para1" eId="resolution_21__subsec_9__para_c__qstr__subsec_1A__para_a">
+           <num>(a)</num>
+           <content>
+            <p>subsection (5) of this section (exception so far as stamp duty is chargeable);</p>
+           </content>
+          </level>
+          <level GUID="_447a5071-9136-4a45-b674-dcea974f0d4d" class="para1" eId="resolution_21__subsec_9__para_c__qstr__subsec_1A__para_b">
+           <num>(b)</num>
+           <content>
+            <p>section 97 (general exceptions);</p>
+           </content>
+          </level>
+          <level GUID="_29c01124-d06d-4db4-8501-718571348996" class="para1" eId="resolution_21__subsec_9__para_c__qstr__subsec_1A__para_c">
+           <num>(c)</num>
+           <content>
+            <p>section 97ZA (exception for replacement securities);</p>
+           </content>
+          </level>
+          <level GUID="_77252602-a5de-4472-a57a-6874c5d23c0b" class="para1" eId="resolution_21__subsec_9__para_c__qstr__subsec_1A__para_d">
+           <num>(d)</num>
+           <content>
+            <p>section 97A (election for alternative system of charge);</p>
+           </content>
+          </level>
+          <level GUID="_a954a9a9-b858-4893-9c97-30364dd1e970" class="para1" eId="resolution_21__subsec_9__para_c__qstr__subsec_1A__para_e">
+           <num>(e)</num>
+           <content>
+            <p><ref class="valid" href="#resolution_25__subsec_14__qstr__sec_97AB" ukl:targetGuid="_0f889aa5-6f62-452b-b998-9f9fcf9529a2" ukl:targetJref="">section 97AB</ref> (exempt capital-raising transfers);</p>
+           </content>
+          </level>
+          <level GUID="_3ae6f525-8999-4eb6-a44b-18b0e33e2319" class="para1" eId="resolution_21__subsec_9__para_c__qstr__subsec_1A__para_f">
+           <num>(f)</num>
+           <content>
+            <p><ref class="valid" href="#resolution_25__subsec_14__qstr__sec_97AC" ukl:targetGuid="_cdc7bec6-ece2-4c67-9bc3-45a8f754eaf2" ukl:targetJref="">section 97AC</ref> (exempt listing transfers);</p>
+           </content>
+          </level>
+          <level GUID="_b589cd42-a1fa-4bff-84f5-d1e284c683dc" class="para1" eId="resolution_21__subsec_9__para_c__qstr__subsec_1A__para_g">
+           <num>(g)</num>
+           <content>
+            <p><ref class="valid" href="#resolution_25__subsec_14__qstr__sec_97AD" ukl:targetGuid="_b268e54a-41c3-4ccc-8702-dcdb87ec00aa" ukl:targetJref="">section 97AD</ref> (exception for transfers of shares held by issuing company);</p>
+           </content>
+          </level>
+          <level GUID="_45cf3d9c-965a-4ab4-8eeb-5a6c083898ac" class="para1" eId="resolution_21__subsec_9__para_c__qstr__subsec_1A__para_h">
+           <num>(h)</num>
+           <content>
+            <p>section 97B (transfers between depositary receipt system and clearance system).</p>
+           </content>
+          </level>
+         </subsection>
+         </quotedStructure><inline name="AppendText">;</inline></mod></p>
+       </content>
+      </level>
+      <level GUID="_a4b49712-fb78-4e79-ba42-1083f2855c68" class="para1" eId="resolution_21__subsec_9__para_d">
+       <num>(d)</num>
+       <content>
+        <p>in subsection (2) omit paragraph (a);</p>
+       </content>
+      </level>
+      <level GUID="_723d16a1-b14d-4eea-bed0-cc8e97dc1172" class="para1" eId="resolution_21__subsec_9__para_e">
+       <num>(e)</num>
+       <content>
+        <p>omit subsection (8).</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_62af5e00-0464-43d9-8c84-a84f398c2b1f" class="prov2" eId="resolution_21__subsec_10">
+      <num>(10)</num>
+      <intro GUID="_ccabf3bf-458f-4387-9186-388ac263d857" eId="resolution_21__subsec_10__intro">
+       <p>Section 97 (clearance services: exceptions) is amended as follows—</p>
+      </intro>
+      <level GUID="_d9a8dfb8-e287-4660-82f8-e33fe77cd237" class="para1" eId="resolution_21__subsec_10__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in subsection (1), in the words after paragraph (b) omit “subject to section 97C,”;</p>
+       </content>
+      </level>
+      <level GUID="_533b14d5-5200-44ed-9ca7-65ef49a91bbe" class="para1" eId="resolution_21__subsec_10__para_b">
+       <num>(b)</num>
+       <content>
+        <p>in subsection (3), in the words before paragraph (a) omit “or issue”;</p>
+       </content>
+      </level>
+      <level GUID="_30582fe9-312f-4aae-b073-100d56033d7f" class="para1" eId="resolution_21__subsec_10__para_c">
+       <num>(c)</num>
+       <content>
+        <p>omit subsections (4) to (6).</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_efa9dc0c-73a2-4620-acc9-9e965874a56b" class="prov2" eId="resolution_21__subsec_11">
+      <num>(11)</num>
+      <content>
+       <p>Section 97AA (clearance services: further exception) is renumbered section 97ZA.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_7c7f1014-7cec-4845-afa2-feb37607d6a5" class="prov2" eId="resolution_21__subsec_12">
+      <num>(12)</num>
+      <intro GUID="_10d38e8e-6591-4164-a6aa-3ec4328b5b6c" eId="resolution_21__subsec_12__intro">
+       <p>In that section—</p>
+      </intro>
+      <level GUID="_13d8e016-21fb-4671-98c4-8d7d6479634a" class="para1" eId="resolution_21__subsec_12__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in the heading, for “further exception” substitute “exception for replacement securities”;</p>
+       </content>
+      </level>
+      <level GUID="_ef9346e5-a0e7-4175-af69-37e632dbb2eb" class="para1" eId="resolution_21__subsec_12__para_b">
+       <num>(b)</num>
+       <content>
+        <p>in subsection (1) omit “or issue”;</p>
+       </content>
+      </level>
+      <level GUID="_0f0cfeeb-60ad-4b7b-b879-a13eca4e4bc2" class="para1" eId="resolution_21__subsec_12__para_c">
+       <num>(c)</num>
+       <intro GUID="_dd89b854-eadd-4249-bdea-cd6ca0735d2d" eId="resolution_21__subsec_12__para_c__intro">
+        <p>in subsection (3)—</p>
+       </intro>
+       <level GUID="_de1de099-f8c0-4ab3-9fe4-0d2c94c46e3a" class="para2" eId="resolution_21__subsec_12__para_c__subpara_i">
+        <num>(i)</num>
+        <content>
+         <p>in paragraph (a), in the words before sub-paragraph (i) omit “or issue”;</p>
+        </content>
+       </level>
+       <level GUID="_2a3f0c9d-52a9-413c-9621-e4fd5fdcb74e" class="para2" eId="resolution_21__subsec_12__para_c__subpara_ii">
+        <num>(ii)</num>
+        <content>
+         <p>in paragraph (b) omit “or (4)”;</p>
+        </content>
+       </level>
+      </level>
+      <level GUID="_2f692e5f-8ff7-43dc-a3d3-97f6d145a081" class="para1" eId="resolution_21__subsec_12__para_d">
+       <num>(d)</num>
+       <content>
+        <p>in subsection (4), in paragraph (a) omit “or issued”.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_ab11409f-c8ed-4154-ac0f-c0ddd9c01bb2" class="prov2" eId="resolution_21__subsec_13">
+      <num>(13)</num>
+      <intro GUID="_c80f271f-5807-497d-a410-128349702c34" eId="resolution_21__subsec_13__intro">
+       <p>Section 97A (clearance services: election for alternative system of charge) is amended as follows—</p>
+      </intro>
+      <level GUID="_89f6ec96-8c0d-421b-ac6f-da9c89678c14" class="para1" eId="resolution_21__subsec_13__para_a">
+       <num>(a)</num>
+       <content>
+        <p>in subsection (3), in paragraph (a) omit “or issue”;</p>
+       </content>
+      </level>
+      <level GUID="_2bd5517c-3ea1-4596-9017-64329f126a3b" class="para1" eId="resolution_21__subsec_13__para_b">
+       <num>(b)</num>
+       <content>
+        <p>in subsection (4), in both places omit “, issue”.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_871ce83a-7f4b-4373-aaa7-3ea6c572df7d" class="prov2" eId="resolution_21__subsec_14">
+      <num>(14)</num>
+      <content>
+       <p><mod>After section 97A insert—<quotedStructure GUID="_30d85517-625b-4bf4-bd78-4f45b7f1d457" eId="resolution_21__subsec_14__qstr" endQuote="”" startQuote="“" ukl:context="body" ukl:docName="ukpga" ukl:indent="indent0">
+        <hcontainer GUID="_94d674e6-ad22-45f1-ae22-3733795adf93" class="group7" eId="resolution_21__subsec_14__qstr__xhdg_97AB" name="crossheading"><?DMS-Component componentId="4ae2ac56-7c93-4a2f-8237-56336badd0df" seriesId="ee0417b0-23cc-4018-abb8-8bcf3b4eb642" versionNumber="0"?>
+         
+         <heading GUID="_1e52cd2f-30b4-43b8-a5fb-e0f5d25e35c1" eId="resolution_21__subsec_14__qstr__xhdg_97AB__hdg">Depositary receipts and clearance services: further exceptions</heading>
+         <section GUID="_0f889aa5-6f62-452b-b998-9f9fcf9529a2" class="prov1" eId="resolution_21__subsec_14__qstr__sec_97AB"><?DMS-Component componentId="4a38cc62-e3fe-4ac9-b5be-7d8cfc1a2d37" seriesId="10387d7e-5d69-4433-b561-76b0ea1d6bd6" versionNumber="0"?>
+          
+          <num ukl:autonumber="no">97AB</num>
+          <heading GUID="_ae038e03-5063-4729-97cb-b3592dfe0a7f" eId="resolution_21__subsec_14__qstr__sec_97AB__hdg">Exempt capital-raising transfers</heading>
+          <subsection GUID="_6b3ac9c3-cd4b-4ec0-a48e-3fe2e8aad6c2" class="prov2" eId="resolution_21__subsec_14__qstr__sec_97AB__subsec_1">
+           <num>(1)</num>
+           <content>
+            <p>There is to be no charge to tax under section 93 or 96 in respect of an exempt capital-raising transfer.</p>
+           </content>
+          </subsection>
+          <subsection GUID="_e63f65ed-67cd-42e3-9fc0-efa877407b8c" class="prov2" eId="resolution_21__subsec_14__qstr__sec_97AB__subsec_2">
+           <num>(2)</num>
+           <content>
+            <p>For the purposes of <ref class="valid" href="#resolution_25__subsec_14__qstr__sec_97AB__subsec_1" ukl:targetGuid="_6b3ac9c3-cd4b-4ec0-a48e-3fe2e8aad6c2" ukl:targetJref="">subsection (1)</ref>, a transfer of chargeable securities is an “exempt capital-raising transfer” if the transfer is in the course of capital-raising arrangements.</p>
+           </content>
+          </subsection>
+          <subsection GUID="_2cf3e125-271a-4b5a-b074-2ef70ebf4ef8" class="prov2" eId="resolution_21__subsec_14__qstr__sec_97AB__subsec_3">
+           <num>(3)</num>
+           <content>
+            <p>In this section, “capital-raising arrangements” means arrangements pursuant to which chargeable securities are issued by a company for the purpose of raising new capital.</p>
+           </content>
+          </subsection>
+          <subsection GUID="_6e215a95-176b-4db6-9aad-c11c8256fab7" class="prov2" eId="resolution_21__subsec_14__qstr__sec_97AB__subsec_4">
+           <num>(4)</num>
+           <intro GUID="_e3d4c175-81b2-4b50-a59c-9dec74a52df3" eId="resolution_21__subsec_14__qstr__sec_97AB__subsec_4__intro">
+            <p>A transfer of chargeable securities is not prevented from being an exempt capital-raising transfer by reason only of a delay in transferring the chargeable securities where—</p>
+           </intro>
+           <level GUID="_8032e02c-cbf8-4005-b147-98af9ad8e195" class="para1" eId="resolution_21__subsec_14__qstr__sec_97AB__subsec_4__para_a">
+            <num>(a)</num>
+            <intro GUID="_3d5f7618-6aa4-4fdd-8dbc-89fab115b26c" eId="resolution_21__subsec_14__qstr__sec_97AB__subsec_4__para_a__intro">
+             <p>a person (“the transferor”) acquires the chargeable securities—</p>
+            </intro>
+            <level GUID="_34ea49bb-4001-4a2e-b39d-b62d693db313" class="para2" eId="resolution_21__subsec_14__qstr__sec_97AB__subsec_4__para_a__subpara_i">
+             <num>(i)</num>
+             <content>
+              <p>before capital-raising arrangements are entered into, or</p>
+             </content>
+            </level>
+            <level GUID="_e61bc69c-0634-4cd6-84e3-17a85a42c1d7" class="para2" eId="resolution_21__subsec_14__qstr__sec_97AB__subsec_4__para_a__subpara_ii">
+             <num>(ii)</num>
+             <content>
+              <p>in the course of capital-raising arrangements,</p>
+             </content>
+            </level>
+           </level>
+           <level GUID="_65c49377-4084-4823-94e2-4ab08849adad" class="para1" eId="resolution_21__subsec_14__qstr__sec_97AB__subsec_4__para_b">
+            <num>(b)</num>
+            <content>
+             <p>the transferor is subject to a restriction that has the effect of preventing the transfer of the chargeable securities in the course of the capital-raising arrangements, and</p>
+            </content>
+           </level>
+           <level GUID="_42b97b4c-eb41-420f-8cd7-70e1e21c2137" class="para1" eId="resolution_21__subsec_14__qstr__sec_97AB__subsec_4__para_c">
+            <num>(c)</num>
+            <content>
+             <p>the transfer is made as soon as reasonably practicable after the time at which the restriction ceases to have effect.</p>
+            </content>
+           </level>
+          </subsection>
+         </section>
+         <section GUID="_cdc7bec6-ece2-4c67-9bc3-45a8f754eaf2" class="prov1" eId="resolution_21__subsec_14__qstr__sec_97AC"><?DMS-Component componentId="2f6ad930-6acc-40b2-88ac-c1461791019a" seriesId="2250fc39-9482-4a0d-a869-f386fcbfbffc" versionNumber="0"?>
+          
+          <num>97AC</num>
+          <heading GUID="_60e768ae-7a72-41f6-92be-26401a7595b1" eId="resolution_21__subsec_14__qstr__sec_97AC__hdg">Exempt listing transfers</heading>
+          <subsection GUID="_b99e7560-f2dc-44ad-bc58-f50aea036a4f" class="prov2" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_1">
+           <num ukl:autonumber="no">(1)</num>
+           <content>
+            <p>There is to be no charge to tax under section 93 or 96 in respect of an exempt listing transfer.</p>
+           </content>
+          </subsection>
+          <subsection GUID="_c4e0526b-14b2-4fc6-94ab-eb71e4a1bfbc" class="prov2" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_2">
+           <num>(2)</num>
+           <intro GUID="_d7e4be0b-c818-4cf9-8847-7b508415e59a" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_2__intro">
+            <p>For the purposes of <ref class="valid" href="#resolution_25__subsec_14__qstr__sec_97AC__subsec_1" ukl:targetGuid="_b99e7560-f2dc-44ad-bc58-f50aea036a4f" ukl:targetJref="">subsection (1)</ref>, a transfer of chargeable securities issued by a company is an “exempt listing transfer” if—</p>
+           </intro>
+           <level GUID="_300e66ab-f4ba-4506-993a-7c01943be857" class="para1" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_2__para_a">
+            <num>(a)</num>
+            <content>
+             <p>it is a transfer in the course of qualifying listing arrangements, and</p>
+            </content>
+           </level>
+           <level GUID="_3948f432-fb9d-4623-bd16-3db379df64bc" class="para1" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_2__para_b">
+            <num>(b)</num>
+            <content>
+             <p>those arrangements do not affect the beneficial ownership of the chargeable securities.</p>
+            </content>
+           </level>
+          </subsection>
+          <subsection GUID="_a030bc5a-f2ea-48c9-ad0d-ada16676d07a" class="prov2" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_3">
+           <num>(3)</num>
+           <content>
+            <p>In this section, “listing arrangements” means arrangements pursuant to which chargeable securities, or depositary receipts for chargeable securities, are listed on a recognised stock exchange.</p>
+           </content>
+          </subsection>
+          <subsection GUID="_24042522-9991-408c-a016-7c7b58dbcdf3" class="prov2" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_4">
+           <num>(4)</num>
+           <content>
+            <p>For the purposes of this section, listing arrangements are “qualifying” if, immediately before the first transfer of chargeable securities in the course of the listing arrangements, no chargeable securities in the company or depositary receipts for chargeable securities in the company are listed on the recognised stock exchange to which the listing arrangements relate.</p>
+           </content>
+          </subsection>
+          <subsection GUID="_c3d11083-aa7f-4605-abc6-7440e9a2a154" class="prov2" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_5">
+           <num>(5)</num>
+           <intro GUID="_6505e9ec-8dcf-4e73-81cd-874612576e75" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_5__intro">
+            <p>A transfer of chargeable securities is not prevented from being an exempt capital-raising transfer by reason only of a delay in transferring the chargeable securities where—</p>
+           </intro>
+           <level GUID="_27189aa6-29a7-4175-8f5c-cd56de5efeec" class="para1" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_5__para_a">
+            <num>(a)</num>
+            <content>
+             <p>a person (“the transferor”) acquires the chargeable securities before qualifying listing arrangements are entered into,</p>
+            </content>
+           </level>
+           <level GUID="_84d55195-bd57-496f-86c0-ba2a252bd3f3" class="para1" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_5__para_b">
+            <num>(b)</num>
+            <content>
+             <p>the transferor is subject to a restriction that has the effect of preventing the transfer of the chargeable securities in the course of the qualifying listing arrangements, and</p>
+            </content>
+           </level>
+           <level GUID="_d8eb12d9-eb34-49d6-97ca-c825bf836a7d" class="para1" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_5__para_c">
+            <num>(c)</num>
+            <content>
+             <p>the transfer is made as soon as reasonably practicable after the time at which the restriction ceases to have effect.</p>
+            </content>
+           </level>
+          </subsection>
+          <subsection GUID="_3c574f62-fd42-480e-8839-1e431435f218" class="prov2" eId="resolution_21__subsec_14__qstr__sec_97AC__subsec_6">
+           <num>(6)</num>
+           <content>
+            <p>Section 1005 of the Income Tax Act 2007 (meaning of “recognised stock exchange”, “listed” etc) applies in relation to this section as it applies in relation to the Income Tax Acts.</p>
+           </content>
+          </subsection>
+         </section>
+         <section GUID="_b268e54a-41c3-4ccc-8702-dcdb87ec00aa" class="prov1" eId="resolution_21__subsec_14__qstr__sec_97AD"><?DMS-Component componentId="e1f4f99f-7e79-41d0-a1ce-6565cfad0cbf" seriesId="4db05af1-66b3-4c63-aa29-5a8255609b62" versionNumber="0"?>
+          
+          <num>97AD</num>
+          <heading GUID="_b2384c38-e01d-4e63-8cff-049fad3a0222" eId="resolution_21__subsec_14__qstr__sec_97AD__hdg">Exception for transfers of shares held by issuing company</heading>
+          <content>
+           <p>There is to be no charge to tax under section 93 or 96 in respect of a transfer of shares in a company which are held by the company (whether in accordance with section 724 of the Companies Act 2006 (treasury shares) or otherwise.</p>
+          </content>
+         </section>
+        </hcontainer>
+        </quotedStructure><inline name="AppendText"/></mod></p>
+      </content>
+     </subsection>
+     <subsection GUID="_735abd11-a848-478a-86d8-bad23b59f4b0" class="prov2" eId="resolution_21__subsec_15">
+      <num>(15)</num>
+      <content>
+       <p>In section 97B (transfer between depositary receipt system and clearance system) omit subsection (1A).</p>
+      </content>
+     </subsection>
+     <subsection GUID="_14263191-36ad-42b2-8e01-43920f5a5130" class="prov2" eId="resolution_21__subsec_16">
+      <num>(16)</num>
+      <content>
+       <p>Omit section 97C (transfers to non-EU depositary receipt and clearance services systems).</p>
+      </content>
+     </subsection>
+     <subsection GUID="_0fa17932-7890-4b91-bf9f-a4a397674dac" class="prov2" eId="resolution_21__subsec_17">
+      <num>(17)</num>
+      <content>
+       <p>In section 99 (interpretation), in subsection (10), in the words before paragraph (a), for “97AA” substitute “97ZA”.</p>
+      </content>
+     </subsection>
+    </hcontainer>
+    <hcontainer GUID="_0660d5f5-2f80-4507-a870-a6fc8fae2d2c" class="group7" eId="resolution_21__resGroup__oc_1" name="resolutionGroup"><?DMS-Component componentId="79ec3607-6b62-4d6b-a311-be005dafd8fd" seriesId="60b8ad0d-2106-43ab-9729-bf9718c8eacc" versionNumber="0"?>
+     
+     <heading GUID="_e5273564-070f-481d-b6d4-459ee05f13aa" eId="resolution_21__resGroup__oc_1__hdg">Commencement and transitional provision</heading>
+     <subsection GUID="_ed15473d-e88b-40db-8398-49ed2368504a" class="prov2" eId="resolution_21__subsec_18">
+      <num>(18)</num>
+      <intro GUID="_0364692c-5cb2-4239-80cc-e649a1b9de5a" eId="resolution_21__subsec_18__intro">
+       <p>The amendments made by this resolution have effect in relation to—</p>
+      </intro>
+      <level GUID="_7ae05ad6-a970-437e-bfe9-7aa98548595b" class="para1" eId="resolution_21__subsec_18__para_a">
+       <num>(a)</num>
+       <content>
+        <p>agreements to transfer chargeable securities made on or after 1 January 2024;</p>
+       </content>
+      </level>
+      <level GUID="_54722fed-8314-49a6-a44b-a57b0dedb78d" class="para1" eId="resolution_21__subsec_18__para_b">
+       <num>(b)</num>
+       <content>
+        <p>the transfer or issue of chargeable securities on or after that day.</p>
+       </content>
+      </level>
+     </subsection>
+     <subsection GUID="_6101ae76-ba1e-4ed4-adf3-0d5f756f088b" class="prov2" eId="resolution_21__subsec_19">
+      <num>(19)</num>
+      <content>
+       <p>Paragraph (20) applies in relation to UK bearer instruments within the meaning of section 99(1A) of the Finance Act 1986 issued before 1 January 2024.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_ad034ff4-f9b1-45b1-8fb1-6cebcc8fcdf9" class="prov2" eId="resolution_21__subsec_20">
+      <num>(20)</num>
+      <content>
+       <p>The amendments made by paragraph (2)(a) and (b) are to be disregarded.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_9f0593a4-da74-4829-80b8-4e4c0bd203e6" class="prov2" eId="resolution_21__subsec_21">
+      <num>(21)</num>
+      <content>
+       <p>Paragraph (22) applies for the purposes of section 95A of the Finance Act 1986 (depositary receipts: exception for replacement securities) where the securities mentioned in subsection (3)(a) of that section were issued before 1 January 2024.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_5675ff11-4033-43d3-bba2-973fd7a92672" class="prov2" eId="resolution_21__subsec_22">
+      <num>(22)</num>
+      <content>
+       <p>The amendments made by paragraphs (3), (4) and (7) are to be disregarded.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_14b72cbb-9bef-4026-adf9-deba5fd53dab" class="prov2" eId="resolution_21__subsec_23">
+      <num>(23)</num>
+      <content>
+       <p>Paragraph (24) applies for the purposes of section 97ZA of the Finance Act 1986 (clearance services: exception for replacement securities) where the securities mentioned in subsection (3)(a) of that section were issued before 1 January 2024.</p>
+      </content>
+     </subsection>
+     <subsection GUID="_8cc441a6-fe1f-49d4-817b-866d1a1c5d42" class="prov2" eId="resolution_21__subsec_24">
+      <num>(24)</num>
+      <content>
+       <p>The amendments made by paragraphs (8), (9), (11) and (12) are to be disregarded.</p>
+      </content>
+     </subsection>
+    </hcontainer>
+    <wrapUp GUID="_2a78434b-4861-4136-8638-d14d95cabce8" eId="resolution_21__wrapup">
+     <p>And it is declared that it is expedient in the public interest that this Resolution should have statutory effect under the provisions of the Provisional Collection of Taxes Act 1968.</p>
+    </wrapUp>
+   </hcontainer>
+   <hcontainer GUID="_d099c9bd-6d0f-48b3-9a8d-035a85fa43d5" class="resolution" eId="resolution_22" name="resolution"><?DMS-Component componentId="5dc7b1f2-439e-414c-aa4e-ab3e7d53e64e" seriesId="07abaf75-c7c6-4b2b-bf3b-c41cfffeb881" versionNumber="0"?>
+    
+    <num>22.</num>
+    <heading GUID="_56df1a94-9566-466a-959e-beba730f7bef" eId="resolution_22__hdg">Pillar Two</heading>
+    <intro GUID="_43b71185-22a1-4fba-aacd-1558e0c21a72" eId="resolution_22__intro">
+     <p>That provision may be made—</p>
+    </intro>
+    <level GUID="_36015b3d-7d04-4c49-8b40-b2b3f811be5c" class="para1" eId="resolution_22__para_a">
+     <num>(a)</num>
+     <content>
+      <p>for the purpose of ensuring that changes (or anticipated changes) to the Pillar Two rules (within the meaning of Part 3 of the Finance (No.2) Act 2023) are taken into account in the provision made by Parts 3 and 4 of that Act and otherwise in connection with ensuring the consistency of those Parts with those rules, and</p>
+     </content>
+    </level>
+    <level GUID="_6b653194-012e-4b19-a43d-9d5ee43c28d0" class="para1" eId="resolution_22__para_b">
+     <num>(b)</num>
+     <content>
+      <p>about the treatment under those Parts of companies and other entities carrying on activities in connection with securitisations or risks associated with insurance.</p>
+     </content>
+    </level>
+   </hcontainer>
+   <hcontainer GUID="_9e0142d2-c0b8-467a-b125-417a81aeba4b" class="resolution" eId="resolution_23" name="resolution"><?DMS-Component componentId="84feac7b-eabd-445d-b9c1-c93efb72689f" seriesId="9560fede-b209-4fbc-8d4e-38e32b261163" versionNumber="0"?>
+    
+    <num>23.</num>
+    <heading GUID="_5a541f83-bc1e-48a0-ad12-bdb220325a5f" eId="resolution_23__hdg">Rates of vehicle excise duty (passenger or light goods vehicles, motorcycles etc)</heading>
+    <intro GUID="_ff5e8eee-e8c0-4add-ac37-9f5e2bd8db97" eId="resolution_23__intro">
+     <p>That provision may be made increasing the rates of vehicle excise duty in Parts 1 to 2 of Schedule 1 to the Vehicle Excise and Registration Act 1994.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_fd293fe1-d9b9-461a-b454-c4c2687f064d" class="resolution" eId="resolution_24" name="resolution"><?DMS-Component componentId="83144df5-0519-4064-9956-39904e6ab731" seriesId="f55897f2-74c4-4d51-9483-88e0ec1cacea" versionNumber="0"?>
+    
+    <num>24.</num>
+    <heading GUID="_08d21a7b-5430-4d86-8dd4-f60872edcece" eId="resolution_24__hdg">Rates of air passenger duty</heading>
+    <intro GUID="_4530f218-1697-4cbe-9dae-a420ef56bf63" eId="resolution_24__intro">
+     <p>That provision may be made increasing the rates of air passenger duty.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_496f43b1-8652-45e5-8a99-ddaf87bf1b57" class="resolution" eId="resolution_25" name="resolution"><?DMS-Component componentId="aab467c0-1527-4c6a-bd7d-699009680b63" seriesId="0f968f3b-84cc-4f12-a319-094eb76013b7" versionNumber="0"?>
+    
+    <num>25.</num>
+    <heading GUID="_364ecad0-36d5-4c24-9dbc-fe601df0e11e" eId="resolution_25__hdg">Hydrocarbon oil duties (rebate on oils used for heating premises)</heading>
+    <intro GUID="_1264d82c-3f0f-453f-99d2-74147ee124a3" eId="resolution_25__intro">
+     <p>That provision may be made for rebates on oils when used in machines or appliances for heating premises.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_7a00a080-d854-474c-9f20-0b08b3b8338a" class="resolution" eId="resolution_26" name="resolution"><?DMS-Component componentId="5c05f32e-2fa9-460e-8bf4-e3f404488a12" seriesId="300eb1d7-36ba-4b79-9964-bd9616c5bc70" versionNumber="0"?>
+    
+    <num>26.</num>
+    <heading GUID="_8cab6801-49d4-4526-a009-7503b7e3bd73" eId="resolution_26__hdg">Vehicle excise duty (exemption for foreign vehicles)</heading>
+    <intro GUID="_536b0cc5-b8e4-484e-a6ba-ab486b9a6f99" eId="resolution_26__intro">
+     <p>That provision may be made conferring a power on the Secretary of State to make provision (including provision having retrospective effect) for vehicles registered outside the United Kingdom to be exempt from vehicle excise duty.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_1fdbf5c1-5b50-4b9f-961c-05bb4ee04208" class="resolution" eId="resolution_27" name="resolution"><?DMS-Component componentId="f75546b6-5939-4f7a-aa5d-f0f5a55e512a" seriesId="d37c4ba0-bc40-426f-97af-77cdeaa0ef54" versionNumber="0"?>
+    
+    <num>27.</num>
+    <heading GUID="_9e55faec-6d9d-48e6-a74c-f2b5c72290a2" eId="resolution_27__hdg">Interpreting VAT and excise law</heading>
+    <intro GUID="_628d031a-ebe8-4250-92db-595334edb021" eId="resolution_27__intro">
+     <p>That—</p>
+    </intro>
+    <subsection GUID="_eee7a171-0ad4-4654-bbfe-fb4d794f2ff7" class="prov2" eId="resolution_27__subsec_1">
+     <num>(1)</num>
+     <intro GUID="_d2bbf8fe-385e-4f88-8080-10905a69ec2b" eId="resolution_27__subsec_1__intro">
+      <p><ref class="ignore" href="#sec_5" ukl:targetGuid="_3d8c69c4-9991-47e4-8f49-ae24195e45ba">This Resolution</ref> makes provision about how—</p>
+     </intro>
+     <level GUID="_3786b5b5-bd2f-4aaa-abc4-8371838c02d0" class="para1" eId="resolution_27__subsec_1__para_a">
+      <num>(a)</num>
+      <content>
+       <p>the European Union (Withdrawal) Act 2018 (“EUWA 2018”), and</p>
+      </content>
+     </level>
+     <level GUID="_ff00421a-ca20-40be-a861-d60e11c12de4" class="para1" eId="resolution_27__subsec_1__para_b">
+      <num>(b)</num>
+      <content>
+       <p>the amendments made to that Act by the Retained EU Law (Revocation and Reform) Act 2023 (“REULA 2023”),</p>
+      </content>
+     </level>
+     <wrapUp GUID="_8ea88c96-5243-44c2-a512-2daeba97e9f2" eId="resolution_27__subsec_1__wrapup">
+      <p>are to apply for the purpose of interpreting enactments relating to value added tax or any duty of excise (“VAT and excise law”).</p>
+     </wrapUp>
+    </subsection>
+    <subsection GUID="_dbefe65f-67d2-411e-8d98-1f85ae5708ba" class="prov2" eId="resolution_27__subsec_2">
+     <num>(2)</num>
+     <content>
+      <p>Section 4 of EUWA 2018 (retained EU rights, powers, liabilities etc) continues to have effect (despite the provision made by section 2 of REULA 2023) for the purpose of interpreting VAT and excise law subject to the following exception.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_cc8e7652-a2fe-4d4c-a2ff-00e08ab571ba" class="prov2" eId="resolution_27__subsec_3">
+     <num>(3)</num>
+     <content>
+      <p>The exception is that Articles 110 and 111 of the Treaty on the Functioning of the European Union (which relate to internal taxation on products) have no effect for that purpose.</p>
+     </content>
+    </subsection>
+    <subsection GUID="_a915d750-8b57-4a84-85a5-5d142cb2ff95" class="prov2" eId="resolution_27__subsec_4">
+     <num>(4)</num>
+     <content>
+      <p>Section 5(A1) to (A3) of EUWA 2018 (which are inserted by section 3 of REULA 2023 and which abolish the supremacy of EU law) have effect in relation to VAT and excise law as they have effect in relation to other domestic enactments but only so far as they relate to the disapplication or quashing of any enactment as a result of EU law (and, accordingly, the superseded provisions continue to have effect for the purpose of interpreting VAT and excise law).</p>
+     </content>
+    </subsection>
+    <subsection GUID="_e930af13-f148-48f1-bbcf-e3966b9081b3" class="prov2" eId="resolution_27__subsec_5">
+     <num>(5)</num>
+     <intro GUID="_2062c0b6-56bd-4a33-9614-cb911e7940c6" eId="resolution_27__subsec_5__intro">
+      <p>Retained general principles of EU law—</p>
+     </intro>
+     <level GUID="_69d7c0a2-e4f9-4cd3-a7c5-b7662edc4b94" class="para1" eId="resolution_27__subsec_5__para_a">
+      <num>(a)</num>
+      <content>
+       <p>continue to be relevant (despite the provision made by section 4 of REULA 2023) for the purpose of interpreting VAT and excise law in the same way, and to the same extent, as they were relevant for that purpose before the coming into force of that section, but</p>
+      </content>
+     </level>
+     <level GUID="_1b0a91ab-605f-4791-9731-fc74302d7525" class="para1" eId="resolution_27__subsec_5__para_b">
+      <num>(b)</num>
+      <content>
+       <p>otherwise have effect for that purpose subject to the provision made by that Act (including, in particular, the amendments made by section 6 of that Act (role of courts)).</p>
+      </content>
+     </level>
+    </subsection>
+    <subsection GUID="_95c3a2d0-7e47-47f3-809f-de945bbc62a7" class="prov2" eId="resolution_27__subsec_6">
+     <num>(6)</num>
+     <intro GUID="_a4ee88a8-4473-41b6-a549-5fad135be06d" eId="resolution_27__subsec_6__intro">
+      <p>In <ref class="ignore" href="#sec_5" ukl:targetGuid="_3d8c69c4-9991-47e4-8f49-ae24195e45ba">this Resolution</ref>—</p>
+     </intro>
+     <level GUID="_fb007c98-005b-4f88-a7d0-b58ca5489933" class="para1" eId="resolution_27__subsec_6__para_a">
+      <num>(a)</num>
+      <content>
+       <p>the reference to any duty of excise is to be read in accordance with section 49 of the Taxation (Cross-border Trade) Act 2018,</p>
+      </content>
+     </level>
+     <level GUID="_b28ca395-4c7a-48a5-9766-b569055d26f0" class="para1" eId="resolution_27__subsec_6__para_b">
+      <num>(b)</num>
+      <content>
+       <p>the reference to the superseded provisions is a reference to section 5(1) to (3) of EUWA 2018 as those subsections had effect immediately before the passing of REULA 2023, and</p>
+      </content>
+     </level>
+     <level GUID="_e9568594-4389-4649-af6a-b4bc07b2acda" class="para1" eId="resolution_27__subsec_6__para_c">
+      <num>(c)</num>
+      <content>
+       <p>the reference to retained general principles of EU law is to be read in accordance with EUWA 2018 as that Act had effect immediately before the passing of REULA 2023.</p>
+      </content>
+     </level>
+    </subsection>
+    <subsection GUID="_59f4bc3d-cc6e-475e-bdc0-bc7fd409893e" class="prov2" eId="resolution_27__subsec_7">
+     <num>(7)</num>
+     <content>
+      <p><ref class="ignore" href="#sec_5" ukl:targetGuid="_3d8c69c4-9991-47e4-8f49-ae24195e45ba">This Resolution</ref> needs to be read with sections 42 and 47 of the Taxation (Cross-border Trade) Act 2018 (which make other provision about EU law relating to VAT and excise law and which continue to have effect for the purpose mentioned in paragraph (1) above).</p>
+     </content>
+    </subsection>
+    <subsection GUID="_e40ef239-871a-423d-b409-8d662385507f" class="prov2" eId="resolution_27__subsec_8">
+     <num>(8)</num>
+     <content>
+      <p>This <ref class="ignore" href="#sec_5" ukl:targetGuid="_3d8c69c4-9991-47e4-8f49-ae24195e45ba">Resolution</ref> comes into force on 1 January 2024.</p>
+     </content>
+    </subsection>
+    <wrapUp GUID="_6fa29d69-0e8e-4ec5-9bd1-20a966dda577" eId="resolution_27__wrapup">
+     <p>And it is declared that it is expedient in the public interest that this Resolution should have statutory effect under the provisions of the Provisional Collection of Taxes Act 1968.</p>
+    </wrapUp>
+   </hcontainer>
+   <hcontainer GUID="_c6a02c3f-57d3-43be-acfb-a0875393c20b" class="resolution" eId="resolution_28" name="resolution"><?DMS-Component componentId="842cb788-dfa0-4f3d-a017-818182c55efe" seriesId="14a7330b-ac2f-425b-8986-7a7c4540d316" versionNumber="0"?>
+    
+    <num>28.</num>
+    <heading GUID="_14a6e312-f78b-4a42-a11e-4ee33dd232ee" eId="resolution_28__hdg">Rates of landfill tax</heading>
+    <intro GUID="_5fe9f7ab-b8a5-4435-95bb-191e4beedade" eId="resolution_28__intro">
+     <p>That provision may be made increasing the rates of landfill tax.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_980a6ca9-e3b2-4091-9a69-de9023552ef1" class="resolution" eId="resolution_29" name="resolution"><?DMS-Component componentId="58cca7f0-6ca9-4abc-9a80-e59bc452d5a7" seriesId="3ac942a0-4f0e-424f-a169-c1205e03d693" versionNumber="0"?>
+    
+    <num>29.</num>
+    <heading GUID="_282f3b71-047a-4de6-8410-aa0a89ccdee1" eId="resolution_29__hdg">Rate of aggregates levy</heading>
+    <intro GUID="_741c95f1-d61c-4214-ba4f-0e9bdf387e74" eId="resolution_29__intro">
+     <p>That provision may be made increasing the rate of aggregates levy.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_4932ca8c-65c1-4e57-a7fd-3100ab19fdc3" class="resolution" eId="resolution_30" name="resolution"><?DMS-Component componentId="59cd82ea-6ce0-4690-bfe3-9717835190b5" seriesId="38468b7f-c649-4c23-9fe7-7e791071be58" versionNumber="0"?>
+    
+    <num>30.</num>
+    <heading GUID="_12859774-adaa-4bee-9fb8-59c4f0e184fd" eId="resolution_30__hdg">Rate of plastic packaging tax</heading>
+    <intro GUID="_9dd3508a-e0f1-4595-8e26-458b4dcf2c21" eId="resolution_30__intro">
+     <p>That provision may be made increasing the rate of plastic packaging tax.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_3cfed44f-5f62-4252-ac5b-ca24a3e123b4" class="resolution" eId="resolution_31" name="resolution"><?DMS-Component componentId="61763477-76ef-4a53-9944-d56353df9afd" seriesId="802d47ff-76b4-4600-b1dd-6d9303976317" versionNumber="0"?>
+    
+    <num>31.</num>
+    <heading GUID="_330b5e1a-ffcc-4115-852e-68bc06c3449c" eId="resolution_31__hdg">Increasing maximum term of imprisonment for tax offences</heading>
+    <intro GUID="_94faa54c-6cd6-4003-98d8-51161442b7b3" eId="resolution_31__intro">
+     <p>That provision may be made increasing the maximum term of imprisonment for any offence under—</p>
+    </intro>
+    <level GUID="_d4ee3990-a132-494b-a8fb-75c4af5007b6" class="para1" eId="resolution_31__para_a">
+     <num>(a)</num>
+     <content>
+      <p>section 106A of the Taxes Management Act 1970 (fraudulent evasion of income tax),</p>
+     </content>
+    </level>
+    <level GUID="_f6b56836-c2fc-4241-8072-bed06f97b532" class="para1" eId="resolution_31__para_b">
+     <num>(b)</num>
+     <content>
+      <p>section 72 of the Value Added Tax Act 1994 (fraudulent evasion etc of VAT),</p>
+     </content>
+    </level>
+    <level GUID="_dd2a50d3-f79c-4637-8f4c-22ddcfd69fbc" class="para1" eId="resolution_31__para_c">
+     <num>(c)</num>
+     <content>
+      <p>any provision of the customs and excise Acts (within the meaning of the Customs and Excise Management Act 1979), or</p>
+     </content>
+    </level>
+    <level GUID="_337e015c-d383-43b2-9aeb-0f33c625d437" class="para1" eId="resolution_31__para_d">
+     <num>(d)</num>
+     <content>
+      <p>any other enactment relating to tax.</p>
+     </content>
+    </level>
+   </hcontainer>
+   <hcontainer GUID="_7ff5d7bd-ca22-4c05-bbb4-198c3aa98859" class="resolution" eId="resolution_32" name="resolution"><?DMS-Component componentId="ce511dc4-64d7-4a79-8953-d196bb05df24" seriesId="111601d9-57fe-4a17-a858-108ce2685bc5" versionNumber="0"?>
+    
+    <num>32.</num>
+    <heading GUID="_a66eaf76-847c-4f84-ae38-8f9989c294f8" eId="resolution_32__hdg">Promoters of tax avoidance (orders disqualifying company directors etc)</heading>
+    <intro GUID="_4b4cf45c-2015-43d0-a06a-a9222dfd8ec1" eId="resolution_32__intro">
+     <p>That provision may be made for officers of Revenue and Customs to apply for orders under the Company Directors Disqualification Act 1986 in connection with the promotion of schemes and other arrangements involving tax avoidance.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_0eeb60a6-03b0-4fff-8ece-b148d833891b" class="resolution" eId="resolution_33" name="resolution"><?DMS-Component componentId="3738b817-4dda-4964-ad6f-135ffdb2d1cc" seriesId="5a127931-c9ba-48b9-a687-c419d229ef71" versionNumber="0"?>
+    
+    <num>33.</num>
+    <heading GUID="_8aab3a0a-55fb-4f08-8ca4-6deaf7e5f128" eId="resolution_33__hdg">Promoters of tax avoidance (stop notices)</heading>
+    <intro GUID="_2183e00e-2d1d-4a9f-8f14-8f68b35a2d63" eId="resolution_33__intro">
+     <p>That provision may be made for cases in which a failure to comply with section 236B of the Finance Act 2014 constitutes a criminal offence.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_62eb7d5e-e686-4010-a32b-1f6c4a7475ce" class="resolution" eId="resolution_34" name="resolution"><?DMS-Component componentId="10d0370c-1507-4c69-be84-d34a660ded2d" seriesId="c5db1464-7510-49ac-abcb-73952347c70b" versionNumber="0"?>
+    
+    <num>34.</num>
+    <heading GUID="_a2455d55-56f0-4deb-9d31-e7b32bac40c7" eId="resolution_34__hdg">Construction industry scheme</heading>
+    <intro GUID="_22e4bb79-061d-44c0-92ec-ada549d5100b" eId="resolution_34__intro">
+     <p>That provision may be made about the conditions for, and the grounds for cancelling, gross payment status under the construction industry scheme.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_499771f9-677c-4469-924e-528d44372e61" class="resolution" eId="resolution_35" name="resolution"><?DMS-Component componentId="caa1bbe0-19e6-4fe1-a494-f0e51815fa49" seriesId="c13d9339-651e-4e98-a531-fd5cfd65d2fd" versionNumber="0"?>
+    
+    <num>35.</num>
+    <heading GUID="_5695fd71-848a-409d-bab7-e50bd4f10896" eId="resolution_35__hdg">Tax returns (information)</heading>
+    <intro GUID="_23ad78f8-0830-4cbd-a4da-d223571ba971" eId="resolution_35__intro">
+     <p>That (notwithstanding anything to the contrary in the practice of the House relating to the matters that may be included in Finance Bills) provision may be made taking effect in a future year about—</p>
+    </intro>
+    <level GUID="_c2b81aea-af74-44a2-9a5b-9c1a664f58f3" class="para1" eId="resolution_35__para_a">
+     <num>(a)</num>
+     <content>
+      <p>the information to be provided in returns under the Taxes Management Act 1970, and</p>
+     </content>
+    </level>
+    <level GUID="_a37f9ad4-2359-4650-88f4-35efaeb04b6b" class="para1" eId="resolution_35__para_b">
+     <num>(b)</num>
+     <content>
+      <p>the information to be provided by employers in accordance with PAYE regulations.</p>
+     </content>
+    </level>
+   </hcontainer>
+   <hcontainer GUID="_d9306b14-8e8b-4f63-b8b6-d0762fb2211b" class="resolution" eId="resolution_36" name="resolution"><?DMS-Component componentId="e72b0c3d-4613-4e0b-935c-a6a2a6670908" seriesId="99075fbf-610e-4b4f-93a3-53fa6efa833f" versionNumber="0"?>
+    
+    <num>36.</num>
+    <heading GUID="_e11d6840-e48b-454c-b548-d87248c9b727" eId="resolution_36__hdg">Commencement of provisions relating to penalties</heading>
+    <intro GUID="_79ffd2ad-39dc-412f-91f1-66a61c1ff18e" eId="resolution_36__intro">
+     <p>That provision may be made about the commencement of Schedules 24 to 27 to the Finance Act 2021.</p>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_b3866332-3cbe-4481-ad57-e18174801265" class="resolution" eId="resolution_37" name="resolution"><?DMS-Component componentId="3528b017-4c9c-4152-b2e0-a73665588f3b" seriesId="69e4b79a-4912-4e9e-994f-f30e26e5ad2a" versionNumber="0"?>
+    
+    <num>37.</num>
+    <heading GUID="_f7a30252-7159-47ec-83c1-4f4bec68402e" eId="resolution_37__hdg">Incidental or consequential provision</heading>
+    <intro GUID="_62a69f11-84ed-4878-af40-c291c7ff5e74" eId="resolution_37__intro">
+     <p>That provision (including provision having retrospective effect) may be made which is incidental to, or consequential on, provision authorised by any other Resolution.</p>
+     <block name="pageBreak"/>
+    </intro>
+   </hcontainer>
+   <hcontainer GUID="_c1937676-94bb-4139-9227-1161ccd8340e" class="resolution" eId="resolution" name="resolution"><?DMS-Component componentId="0de921be-94d3-410a-9507-3bff45e9ccc9" seriesId="df761e76-b1ea-4213-ad43-b643f32dfa21" versionNumber="0"?>
+    
+    <intro GUID="_eb19a689-a56d-495f-aed6-88eda2df3c32" eId="resolution__intro">
+     <block name="resolutionTopic">FINANCE (MONEY): <i>King's recommendation signified</i></block>
+     <p>That, for the purposes of any Act of the present Session relating to finance, it is expedient to authorise the payment out of money provided by Parliament of—</p>
+    </intro>
+    <level GUID="_86f6c3e0-86ce-4d00-863c-e6fa20b32192" class="para1" eId="resolution__para_a">
+     <num>(a)</num>
+     <content>
+      <p>any expenditure incurred by the Commissioners for His Majesty’s Revenue and Customs in respect of credits to companies in respect of expenditure on research and development, and</p>
+     </content>
+    </level>
+    <level GUID="_5a22549c-7242-46f7-9ba1-edddf402cba7" class="para1" eId="resolution__para_b">
+     <num>(b)</num>
+     <content>
+      <p>any expenditure incurred by the Commissioners for His Majesty’s Revenue and Customs in respect of credits to companies in respect of expenditure on the production of films, television programmes or video games.</p>
+     </content>
+    </level>
+   </hcontainer>
+  </body>
+ </bill>
+</akomaNtoso>
